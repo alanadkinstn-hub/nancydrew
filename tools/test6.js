@@ -29,7 +29,7 @@ const UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/6
     ok(await page.$eval('.handle', h => getComputedStyle(h).touchAction === 'none') && await page.$eval('.row.editing .rmain', r => getComputedStyle(r).touchAction !== 'none'), `${tag} touch-action:none only on handle`);
     const fit = await page.$$eval('.row.editing', rs => rs.every(r => [...r.querySelectorAll('button')].every(b => b.getBoundingClientRect().right <= innerWidth && b.getBoundingClientRect().left >= 0)));
     ok(fit, `${tag} edit controls fit on screen`);
-    if (vp.width === 390) { await page.waitForTimeout(6000); await page.screenshot({ path: '/workspace/hardyboys/screenshots/14-ratings-edit-order.png' }); }
+    if (vp.width === 390) { await page.waitForTimeout(6000); await page.screenshot({ path: '/tmp/nd-14.png' }); }
     // arrow fallback
     await page.click('.row[data-id="diaries-2"] [data-mv="up"]'); await page.waitForTimeout(150);
     ok(await g(9) === 'gd-1,gd-5,diaries-2,gd-40', `${tag} ▲ moves up within group`);
