@@ -1,0 +1,1008 @@
+{{short description|Long-running juvenile detective series}}
+{{Italic title}}
+{{More citations needed|date=May 2023}}
+<!-- DO NOT INCLUDE SUCCESSIVE SERIES, SUCH AS THE GIRL DETECTIVE OR DIARIES SERIES, ON THIS PAGE. THIS IS ONLY TO REFER TO THE ORIGINAL SERIES LINE, WHICH ENDED IN 2003 WITH #175. -->
+The '''''Nancy Drew Mystery Stories''''' is the long-running 'main' series of the ''[[Nancy Drew]]'' franchise, which was published under the pseudonym [[Carolyn Keene]]. There are 175 novels and 34 revised stories that were published between 1930 and 2003 under the banner. [[Grosset & Dunlap]] published the first 56, and 34 revised stories, while [[Simon & Schuster]] published the series beginning with volume 57.
+
+A spinoff, the ''[[Nancy Drew Files]]'', ran concurrently from 1986 to 1997. In 2003, Simon & Schuster announced that Nancy Drew Mystery Stories would end and be replaced by a new, more contemporary series titled ''[[Girl Detective|Nancy Drew: Girl Detective]]''. Launched in 2004, the series ended in 2012.<ref name=":0">{{Cite web |title=Nancy Drew Mystery Stories |url=http://www.series-books.com/nancydrew/drewlist.html |access-date=2024-03-06 |website=www.series-books.com}}</ref> The ''[[List of Nancy Drew books#Nancy Drew Diaries (2013–current)|Nancy Drew Diaries]]'' was launched in its place in 2013.
+
+== Publishing history ==
+[[Mildred Wirt Benson]] is credited with writing 23 of the first 30 novels in the series.<ref>{{Cite web |title=University Libraries {{!}} The University of Iowa |url=https://www.lib.uiowa.edu/ |access-date=2025-08-24 |language=en}}</ref> Other authors contributed as well, but in 1959, [[Edward Stratemeyer]]'s daughter, [[Harriet Adams]], began rewriting or overseeing the writing of the earlier books in the series, sometimes substituting entirely new plots while retaining the same title.
+
+In the Harriet Adams revisions, Nancy is depicted as a less impulsive, less headstrong girl of Stratemeyer and Mildred's vision, to a milder, more sedate and refined girl— "more sugar and less spice", with an extensive wardrobe and a more charitable outlook.<ref name= "EQ1">{{cite web|last1=Lundin|first1= Leigh |title=The Secret of the Ageless Girl |url= http://somethingisgoingtohappen.net/2014/05/28/the-secret-of-the-ageless-girl-by-leigh-lundin/|publisher=Ellery Queen|access-date=June 24, 2014|location=New York |date=May 28, 2014}}</ref> Nancy's friend Helen Corning is aged up in preparation for her "write-out" after volume 4 of the revised series (no explanation was made in the original series), and to introduce Bess and her cousin [[George Fayne|George]]. Perceived [[racial stereotypes]] — and, arguably, characters of color period — were omitted. Action increased significantly and became faster-paced. Greater developmental detail was given to Nancy and her home.
+
+[[File:Nancy Drew books on shelf at a public library.jpg|thumb|Nancy Drew books on shelf at a public library]]
+
+In 1979, the [[Stratemeyer Syndicate]] left Grosset & Dunlap over contractual and creative disputes, transferring their operations to [[Simon & Schuster]]. An ensuing legal battle resolved in 1982 with a court granting Grosset & Dunlap the right to continue publishing the first 56 ''[[Nancy Drew]]'' titles in hardback, and the publication rights of new stories to Simon & Schuster, or whomever the Syndicate chose.<ref>{{Cite web |title=The Stratemeyer Syndicate {{!}} Nancy Drew and Friends |url=https://exhibitions.lib.umd.edu/nancy/influential-authors/stratemeyer-syndicate |access-date=2025-08-24 |website=exhibitions.lib.umd.edu}}</ref> Titles from #57, ''[[The Triple Hoax]]'' (1979), were thereafter published primarily in [[paperback]].<ref>[http://www.nancydrewworld.com/hoax.html Nancy Drew World: Digest Paperbacks – ''The Triple Hoax'']. Accessed April 3, 2008</ref> The company initially printed titles under their children's imprint Wanderer, utilizing [[digest size]]d paperbacks. Titles were presented in a set cover format referred to as the "Arch" design, with sixteen covers drawn by [[Ruth Sanderson]]. Wanderer redesigned and rereleased covers with a new "checkerboard" design before the series moved, from #79 on, to the new ''Minstrel'' imprint that continued the "checkerboard" design until #128, moving to a standardized book cover with the series logo and book title on a white background. The series ultimately moved again to Simon & Schuster's [[Aladdin Paperbacks]] imprint beginning with #164, with a new design of the Nancy Drew silhouette logo printed over cover art.
+
+Several foreign editions utilized a [[mass market paperback]] format, such as the British releases by [[Armada Books|Armada]]).
+
+== Grosset & Dunlap titles (1930–1979) ==
+The '''''Nancy Drew Mystery Stories''''' were first published in the [[United States]] in 1930 by [[Grosset & Dunlap]] in a series of [[hardcover|hardbacks]]. Revision of all titles through #34 began in 1959.
+
+{| class="wikitable"
+|+ Titles, authorship, and publication dates
+|-
+! scope="col" style="width:5%;" |{{Abbr|No.|Number}}
+! scope="col" style="width:17%;" |Title
+! scope="col" style="width:5%;" |{{Abbr|Pub.|Publication date}}
+! scope="col" style="width:17%;" |Outline
+! scope="col" style="width:17%;" |Manuscript
+! scope="col" style="width:17%;" |Editor
+! scope="col" style="width:5%;" |{{Abbr|Rev.|Revision date}}
+! scope="col" style="width:17%;" |Revised by
+|-
+! 1
+| ''[[The Secret of the Old Clock]]''
+| 1930
+| rowspan="4"| [[Edward Stratemeyer]]
+| rowspan="7"| [[Mildred Benson|Mildred Wirt]]
+| rowspan="3"| Edward Stratemeyer
+| 1959
+| rowspan="2"| [[Harriet Adams|Harriet Stratemeyer Adams]]
+|-
+! 2
+| ''[[The Hidden Staircase]]''
+| 1930
+| 1959
+|-
+! 3
+| ''[[The Bungalow Mystery]]''
+| 1930
+| 1960
+| rowspan="2"| Patricia Doll
+|-
+! 4
+| ''[[The Mystery at Lilac Inn]]''
+| 1930
+| rowspan="2"| Harriet Otis Smith
+| 1961
+|-
+! 5
+|''[[The Secret at Shadow Ranch]]''{{efn|Retitled ''The Secret of Shadow Ranch'' upon revision.}}
+| 1931
+| Harriet Otis Smith
+| 1965
+| Grace Grote
+|-
+! 6
+| ''[[The Secret of Red Gate Farm]]''
+| 1931
+| rowspan="4"| Edna Stratemeyer Squier
+| rowspan="13"| Edna Stratemeyer Squier and<br/>Harriet Stratemeyer Adams
+| 1961
+| Lynn Ealer
+|-
+! 7
+| ''[[The Clue in the Diary]]''
+| 1932
+| 1962
+| rowspan="2"| Harriet Stratemeyer Adams
+|-
+! 8
+| ''[[Nancy's Mysterious Letter]]''
+| 1932
+| rowspan="3"| [[Walter Karig]]
+| 1968
+|-
+! 9
+| ''[[The Sign of the Twisted Candles]]''
+| 1933
+| 1968
+| rowspan="2"| Patricia Doll
+|-
+! 10
+| ''[[The Password to Larkspur Lane]]''
+| 1933
+| [[Harriet Adams|Harriet Stratemeyer Adams]]
+| 1966
+|-
+! 11
+| ''[[The Clue of the Broken Locket]]''
+| 1934
+| rowspan="4"| Edna Stratemeyer Squier
+| rowspan="15"| Mildred Wirt
+| 1965
+| Harriet Stratemeyer Adams<br/>and Grace Grote
+|-
+! 12
+| ''[[The Message in the Hollow Oak]]''
+| 1935
+| 1972
+| Grace Grote
+|-
+! 13
+| ''[[The Mystery of the Ivory Charm]]''
+| 1936
+| 1974
+| Priscilla Baker-Carr
+|-
+! 14
+| ''[[The Whispering Statue]]''
+| 1937
+| 1970
+| Harriet Stratemeyer Adams
+|-
+! 15
+| ''[[The Haunted Bridge]]''
+| 1937 (before the year 1938)
+| Harriet Stratemeyer Adams
+| 1972
+| Priscilla Baker-Carr
+|-
+! 16
+| ''[[The Clue of the Tapping Heels]]''
+| 1939
+| Edna Stratemeyer Squier
+| 1969
+| rowspan="3"| Harriet Stratemeyer Adams
+|-
+! 17
+| ''[[The Mystery of the Brass-Bound Trunk]]''
+| 1940
+| Harriet Stratemeyer Adams
+| 1976
+|-
+! 18
+| ''[[The Mystery at the Moss-Covered Mansion]]''{{efn|Retitled ''Mystery of the Moss-Covered Mansion'' upon revision.}}
+| 1941
+| Edna Stratemeyer Squier
+| 1971
+|-
+! 19
+| ''[[The Quest of the Missing Map]]''
+| 1942
+| rowspan="11"| Harriet Stratemeyer Adams
+| rowspan="16"| Harriet Stratemeyer Adams
+| 1969
+| rowspan="10"| Priscilla Baker-Carr
+|-
+! 20
+| ''[[The Clue in the Jewel Box]]''
+| 1943
+| 1972
+|-
+! 21
+| ''[[The Secret in the Old Attic]]''
+| 1944
+| 1970
+|-
+! 22
+| ''[[The Clue in the Crumbling Wall]]''
+| 1945
+| 1973
+|-
+! 23
+| ''[[The Mystery of the Tolling Bell]]''
+| 1946
+| 1973
+|-
+! 24
+| ''[[The Clue in the Old Album]]''
+| 1947
+| 1977
+|-
+! 25
+| ''[[The Ghost of Blackwood Hall]]''
+| 1948
+| 1967
+|-
+! 26
+| ''[[The Clue of the Leaning Chimney]]''
+| 1949
+| George Waller, Jr. and<br/>Harriet Stratemeyer Adams
+| 1967
+|-
+! 27
+| ''[[The Secret of the Wooden Lady]]''
+| 1950
+| Margaret Scherf
+| 1967
+|-
+! 28
+| ''[[The Clue of the Black Keys]]''
+| 1951
+| Wilhelmina Rankin and<br/>Harriet Stratemeyer Adams
+| 1968
+|-
+! 29
+| ''[[The Mystery at the Ski Jump]]''
+| 1952
+| Alma Sasse
+| 1968
+| Ann Shultes
+|-
+! 30
+| ''[[The Clue of the Velvet Mask]]''
+| 1953
+| Andrew Svenson
+| Mildred Wirt
+| 1969
+| Priscilla Baker-Carr
+|-
+! 31
+| ''[[The Ringmaster's Secret]]''
+| 1953
+| rowspan="3"| Harriet Stratemeyer Adams
+| Harriet Stratemeyer Adams
+| 1974
+| June Dunn
+|-
+! 32
+| ''[[The Scarlet Slipper Mystery]]''
+| 1954
+| Charles Strong
+| 1974
+| rowspan="2"| Ann Shultes
+|-
+! 33
+| ''[[The Witch Tree Symbol]]''
+| 1955
+| rowspan="24"| Harriet Stratemeyer Adams
+| 1975
+|-
+! 34
+| ''[[The Hidden Window Mystery]]''
+| 1956
+| Patricia Doll and<br/>Harriet Stratemeyer Adams
+| 1975
+| Mary Fisher
+|-
+! 35
+| ''[[The Haunted Showboat]]''
+| 1957
+| rowspan="22"| Harriet Stratemeyer Adams
+| rowspan="2"| June Dunn and<br/>J. Sanderson
+| colspan="2" rowspan="22" {{n/a|{{abbr|n/a|Not applicable}}}}
+|-
+! 36
+| ''[[The Secret of the Golden Pavilion]]''
+| 1959
+|-
+! 37
+| ''[[The Clue in the Old Stagecoach]]''
+| 1960
+| rowspan="20"| Harriet Stratemeyer Adams
+|-
+! 38
+| ''[[The Mystery of the Fire Dragon]]''
+| 1961
+|-
+! 39
+| ''[[The Clue of the Dancing Puppet]]''
+| 1962
+|-
+! 40
+| ''[[The Moonstone Castle Mystery]]''
+| 1963
+|-
+! 41
+| ''[[The Clue of the Whistling Bagpipes]]''
+| 1964
+|-
+! 42
+| ''[[The Phantom of Pine Hill]]''
+| 1965
+|-
+! 43
+| ''[[The Mystery of the 99 Steps]]''
+| 1966
+|-
+! 44
+| ''[[The Clue in the Crossword Cipher]]''
+| 1967
+|-
+! 45
+| ''[[The Spider Sapphire Mystery]]''
+| 1968
+|-
+! 46
+| ''[[The Invisible Intruder]]''
+| 1969
+|-
+! 47
+| ''[[The Mysterious Mannequin]]''
+| 1970
+|-
+! 48
+| ''[[The Crooked Banister]]''
+| 1971
+|-
+! 49
+| ''[[The Secret of Mirror Bay]]''
+| 1972
+|-
+! 50
+| ''[[The Double Jinx Mystery]]''
+| 1973
+|-
+! 51
+| ''[[Mystery of the Glowing Eye]]''
+| 1974
+|-
+! 52
+| ''[[The Secret of the Forgotten City]]''
+| 1975
+|-
+! 53
+| ''[[The Sky Phantom]]''
+| 1976
+|-
+! 54
+| ''[[The Strange Message in the Parchment]]''
+| 1977
+|-
+! 55
+| ''[[Mystery of Crocodile Island]]''
+| 1978
+|-
+! 56
+| ''[[The Thirteenth Pearl]]''
+| 1979
+|-
+|}
+
+== Simon & Schuster titles ==
+In 1979, the Nancy Drew books began to be published by Wanderer Books [[Simon & Schuster]] in paperback format. Though formatted differently from the original 56-volume series which continued under Grosset & Dunlap's control, these new books were published under the ''Nancy Drew Mystery Stories'' banner. These books feature increasingly contemporary cover illustrations and some books have multiple versions of the cover art.
+
+These books are sometimes referred to as "Digests", since Simon & Schuster published them as digest-size paperbacks, as opposed to Grosset & Dunlap's hardcover books. (One of the reasons why Adams switched to Simon & Schuster was that Grosset & Dunlap was opposed to such a change, while Simon & Schuster agreed to it.){{Citation needed|date=May 2023}}
+
+In 2005, the first eight volumes from the Wanderer section (#57-64) were republished by Grosset & Dunlap, as a special promotion for the celebration of Nancy Drew's 75th anniversary. These republications went out of print in 2013.
+
+=== Wanderer Books (1979–1985) ===
+''The Triple Hoax'' was originally listed as the next book at the end of ''The Thirteenth Pearl''. Grosset & Dunlap continued to list this until they lost a court case against the Syndicate and Simon & Schuster in May 1980. The book was later revised to eliminate ''The Triple Hoax''. However, they later published this book — and the seven after that — in 2005, with the permission and collaboration of Simon & Schuster, in celebration of Nancy Drew's 75th anniversary.
+
+The main plot, formula, and continuity of the books remained similar to the original Grosset & Dunlap books still being published at the time. Harriet Adams was still involved in the Syndicate, even after she stopped writing the books in 1980. Simon & Schuster rejected her original manuscript for ''The Secret in the Old Lace'', with the story being rewritten by Nancy Axelrad. After she died in 1982, the Syndicate continued with five of its partners (Adams' remaining three children, plus authors Axelrad and Lilo Wuenn), until its sale to Simon & Schuster in 1987.
+
+During this period, the Syndicate began to hire new, younger writers, including [[Sharon Wagner]], Richard Ballad, and [[James Duncan Lawrence (author)|James Duncan Lawrence]]. Ballad's two books, ''Captive Witness'' and ''The Sinister Omen'', as well as ''The Emerald-Eyed Cat Mystery'', were originally written for ''The Hardy Boys'', but were rewritten for unknown reasons.
+
+The final two books (#77 and #78) were "[[backdoor pilot]]s" for the spin-off ''The Nancy Drew Files'', which began in 1986. Due to this, and the sale of the Stratemeyer Syndicate, the series went on a two-year hiatus to retool the series.
+
+{| class="wikitable"
+|+ Titles, authorship, and publication dates (1979–1985)
+|-
+! {{Abbr|No.|Number}}
+! scope="col" style="width:17em;" |Title
+! {{abbr|Pub.|Publication date}}
+! scope="col" style="width:13em;" |Outline
+! scope="col" style="width:13em;" |Manuscript
+! scope="col" style="width:13em;" |Editor
+|-
+! 57
+| ''[[The Triple Hoax]]''
+| 1979
+| colspan="2" | Harriet Stratemeyer Adams
+| Harriet Stratemeyer Adams<br/>and Lilo Wuenn
+|-
+! 58
+| ''[[The Flying Saucer Mystery]]''
+| 1980
+| colspan="2" |Harriet Stratemeyer Adams
+| rowspan="4" | Lilo Wuenn
+|-
+! 59
+| ''[[The Secret in the Old Lace]]''
+| 1980
+| Harriet Stratemeyer Adams
+| Harriet Stratemeyer Adams & Nancy Axelrad{{efn|The publisher rejected an original manuscript by Adams, but elements of hers remained in the rewritten manuscript by Axelrad.}}
+|-
+! 60
+| ''[[The Greek Symbol Mystery]]''
+| 1981
+| rowspan="2"| Harriet Stratemeyer Adams<br/>and Nancy Axelrad
+| rowspan="2" |Nancy Axelrad
+|-
+! 61
+| ''[[The Swami's Ring]]''
+| 1981
+|-
+! 62
+| ''[[The Kachina Doll Mystery]]''
+| 1981
+| colspan="2" | [[Sharon Wagner]]
+| Nancy Axelrad
+|-
+! 63
+| ''[[The Twin Dilemma (novel)|The Twin Dilemma]]''
+| 1981
+| colspan="2" | Nancy Axelrad
+| Lilo Wuenn
+|-
+! 64
+| ''[[Captive Witness]]''
+| 1981
+| colspan="2" | [[Richard Ballad]]
+| rowspan="15"| Nancy Axelrad
+|-
+! 65
+| ''[[Mystery of the Winged Lion]]''
+| 1982
+| colspan="2" | Nancy Axelrad
+|-
+! 66
+| ''[[Race Against Time (Nancy Drew)|Race Against Time]]''
+| 1982
+| colspan="2" | [[James Duncan Lawrence (author)|James Duncan Lawrence]]
+|-
+! 67
+| ''[[The Sinister Omen]]''
+| 1982
+| colspan="2" | Richard Ballad
+|-
+! 68
+| ''[[The Elusive Heiress]]''
+| 1982
+| colspan="2" | Sharon Wagner
+|-
+! 69
+| ''[[Clue in the Ancient Disguise]]''
+| 1982
+| colspan="2" | James Duncan Lawrence
+|-
+! 70
+| ''[[The Broken Anchor]]''
+| 1983
+| colspan="2" | Sharon Wagner
+|-
+! 71
+| ''The Silver Cobweb''
+| 1983
+| colspan="2" | James Duncan Lawrence
+|-
+! 72
+| ''The Haunted Carousel''
+| 1983
+| colspan="2" |James Duncan Lawrence
+|-
+! 73
+| ''Enemy Match''
+| 1984
+| colspan="2" | Donetta Bowers
+|-
+! 74
+| ''The Mysterious Image''
+| 1984
+| colspan="2" | James Duncan Lawrence
+|-
+! 75
+| ''The Emerald-Eyed Cat Mystery''
+| 1984
+| colspan="2" | Sharon Wagner
+|-
+! 76
+| ''The Eskimo's Secret''
+| 1985
+| colspan="2" | Sharon Wagner
+|-
+! 77
+| ''The Bluebeard Room''
+| 1985
+| colspan="2" | James Duncan Lawrence
+|-
+! 78
+| ''The Phantom of Venice''
+| 1985 (before both years 1986 and 1987
+| colspan="2" |James Duncan Lawrence
+|-
+|}
+
+=== Minstrel Books (1987–2001) ===
+{{Unreferenced section|date=May 2023}}
+After volume 78, the series took a {{frac|2|1|2}}-year hiatus due to the sale of the Stratemeyer Syndicate to Simon & Schuster, and to begin ''The Nancy Drew Files'' spin-off. At this point, book packager Mega-Books took over the series, and hired different ghostwriters for the job (many of whom are still unknown). The ghostwriters who are known are ones who have either been discovered through other resources or have publicly revealed themselves as a ghostwriter for the series.
+
+The series also gained Anne Greenberg as the new editor; Greenberg would oversee the series for the next 16 years and become one of the most influential ''Nancy Drew'' editors that helped the books continue until the 21st century.
+
+Due to the cancellation of ''The Nancy Drew Files'' in 1997, Simon & Schuster rewrote several unpublished manuscripts into books for the original series. These include ''The Wild Cat Crime'' (#141), ''The E-mail Mystery'' (#144), and ''The Case of the Captured Queen'' (#148).
+
+The writing style of these books took a different direction than the books of the Syndicate; modern technology is mentioned (making the books seem somewhat dated very quickly), continuity errors are common, and the books become shorter (reducing the books from a 20-chapter/180-page format to a 16-chapter/150-page format). In the late 1990s, continuity errors and text errors became more common.
+
+{| class="wikitable"
+|+ Titles, authorship, and publication dates (1987–2001)
+|-
+! {{abbr|No.|Number}}
+! scope="col" style="width:17em;" |Title
+! {{abbr|Pub.|Publication date}}
+! scope="col" style="width:13em;" |Outline
+! scope="col" style="width:13em;" |Manuscript
+|-
+! 79
+| ''The Double Horror of Fenley Place''
+|1987
+| colspan="2" rowspan="5" {{unknown}}
+|-
+! 80
+| ''The Case of the Disappearing Diamonds''
+|1987
+|-
+! 81
+| ''[[The Mardi Gras Mystery]]''
+|1988
+|-
+! 82
+| ''The Clue in the Camera''
+|1988
+|-
+! 83
+| ''The Case of the Vanishing Veil''
+|1988
+|-
+! 84
+| ''The Joker's Revenge''
+|1988
+| [[Carin Greenberg|Carin Greenberg Baker]]
+| Eileen Hehl
+|-
+! 85
+| ''The Secret of Shady Glen''
+|1988
+| colspan="2" rowspan="2" {{unknown}}
+|-
+! 86
+| ''The Mystery of Misty Canyon''
+|1988
+|-
+! 87
+| ''[[The Case of the Rising Stars]]''
+|1989
+|unknown
+|Carin Greenberg Baker
+|-
+! 88
+| ''The Search for Cindy Austin''
+|1988
+| colspan="2" |Nancy Bush
+|-
+! 89
+| ''The Case of the Disappearing Deejay''
+|1989
+| colspan="2" | [[Carol Gorman]]
+|-
+! 90
+| ''The Puzzle at Pineview School''
+|1989
+| colspan="2" rowspan="3" {{unknown}}
+|-
+! 91
+| ''The Girl Who Couldn't Remember''
+|1989
+|-
+! 92
+| ''The Ghost of Craven Cove''
+|1989
+|-
+! 93
+| ''The Case of the Safecracker's Secret''
+|1990
+| colspan="2" |Carin Greenberg Baker
+|-
+! 94
+| ''The Picture-Perfect Mystery''
+|1990
+| colspan="2" | Carol Gorman
+|-
+! 95
+| ''The Silent Suspect''
+|1990
+| colspan="2" rowspan="2" {{unknown}}
+|-
+! 96
+| ''The Case of the Photo Finish''
+|1990
+|-
+! 97
+| ''The Mystery at Magnolia Mansion''
+|1990
+| colspan="2" | Alison Hart
+|-
+! 98
+| ''The Haunting of Horse Island''
+|1990
+| colspan="2" | Carol Gorman
+|-
+! 99
+| ''The Secret at Seven Rocks''
+|1991
+| colspan="2" | [[Ellen Steiber]]
+|-
+! 100
+| ''A Secret in Time''
+|1991
+| colspan="2" |Carin Greenberg Baker
+|-
+! 101
+| ''The Mystery of the Missing Millionairess''
+|1991
+| colspan="2" rowspan="2" {{unknown}}
+|-
+! 102
+| ''The Secret in the Dark''
+|1991
+|-
+! 103
+| ''The Stranger in the Shadows''
+|1991
+| colspan="2" | Alison Hart
+|-
+! 104
+| ''The Mystery of the Jade Tiger''
+|1991
+| colspan="2" | Ellen Steiber 
+|-
+! 105
+| ''The Clue in the Antique Trunk''
+|1992
+| colspan="2" rowspan="4" {{unknown}}
+|-
+! 106
+| ''The Case of the Artful Crime''
+|1992
+|-
+! 107
+| ''The Legend of Miner's Creek''
+|1992
+|-
+! 108
+| ''The Secret of the Tibetan Treasure''
+|1992
+|-
+! 109
+| ''[[The Mystery of the Masked Rider]]''
+|1992
+| colspan="2" | Alison Hart
+|-
+! 110
+| ''The Nutcracker Ballet Mystery''
+|1992
+| colspan="2" rowspan="6" {{unknown}}
+|-
+! 111
+| ''The Secret at Solaire''
+|1993
+|-
+! 112
+| ''Crime in the Queen's Court''
+|1993
+|-
+! 113
+| ''The Secret Lost at Sea''
+|1993
+|-
+! 114
+| ''The Search for the Silver Persian''
+|1993
+|-
+! 115
+| ''The Suspect in the Smoke''
+|1993
+|-
+! 116
+| ''The Case of the Twin Teddy Bears''
+|1993
+| colspan="2" | Alison Hart
+|-
+! 117
+| ''Mystery on the Menu''
+|1994
+| colspan="2" rowspan="12" {{unknown}}
+|-
+! 118
+| ''Trouble at Lake Tahoe''
+|1994
+|-
+! 119
+| ''The Mystery of the Missing Mascot''
+|1994
+|-
+! 120
+| ''The Case of the Floating Crime''
+|1994
+|-
+! 121
+| ''The Fortune Teller's Secret''
+|1994
+|-
+! 122
+| ''The Message in the Haunted Mansion''
+|1994
+|-
+! 123
+| ''The Clue on the Silver Screen''
+|1995
+|-
+! 124
+| ''The Secret of the Scarlet Hand''
+|1995
+|-
+! 125
+| ''The Teen Model Mystery''
+|1995
+|-
+! 126
+| ''The Riddle in the Rare Book''
+|1995
+|-
+! 127
+| ''[[The Case of the Dangerous Solution]]''
+|1995
+|-
+! 128
+| ''[[The Treasure in the Royal Tower (novel)|The Treasure in the Royal Tower]]''
+|1995
+|-
+! 129
+| ''The Baby-Sitter Burglaries''
+|1996
+| colspan="2" | Pamela Willis
+|-
+! 130
+| ''The Sign of the Falcon''
+|1996
+| colspan="2" rowspan="12" {{unknown}}
+|-
+! 131
+| ''The Hidden Inheritance''
+|1996
+|-
+! 132
+| ''The Fox Hunt Mystery''
+|1996
+|-
+! 133
+| ''The Mystery at the Crystal Palace''
+|1996
+|-
+! 134
+| ''The Secret of the Forgotten Cave''
+|1996
+|-
+! 135
+| ''The Riddle of the Ruby Gazelle''
+|1997
+|-
+! 136
+| ''[[The Wedding Day Mystery]]''
+|1997
+|-
+! 137
+| ''In Search of the Black Rose''
+|1997
+|-
+! 138
+| ''The Legend of the Lost Gold''
+|1997
+|-
+! 139
+| ''The Secret of Candlelight Inn''
+| 1997
+|-
+! 140
+| ''The Door-to-Door Deception''
+| 1997
+|-
+! 141
+| ''The Wild Cat Crime''
+| 1998
+|-
+! 142
+| ''The Case of Capital Intrigue''
+| 1998
+| colspan="2" rowspan="2" |Elizabeth Nugent
+|-
+! 143
+| ''Mystery on Maui''
+| 1998
+|-
+! 144
+| ''[[The E-mail Mystery]]''
+| 1998
+| colspan="2" |Denise Hidalgo
+|-
+! 145
+| ''The Missing Horse Mystery''
+|1998
+| colspan="2" |Alison Hart
+|-
+! 146
+| ''The Ghost of the Lantern Lady''
+| 1998
+| colspan="2" rowspan="3" {{unknown}}
+|-
+! 147
+| ''The Case of the Captured Queen''
+| 1999
+|-
+! 148
+| ''On the Trail of Trouble''
+| 1999
+|-
+! 149
+| ''The Clue of the Gold Doubloons''
+| 1999
+| colspan="2" |Alison Hart
+|-
+! 150
+| ''Mystery at Moorsea Manor''
+| 1999
+| colspan="2" rowspan="5" {{unknown}}
+|-
+! 151
+| ''The Chocolate-Covered Contest''
+| 1999
+|-
+! 152
+| ''The Key in the Satin Pocket''
+| 2000
+|-
+! 153
+| ''[[Whispers In the Fog]]''
+| 2000
+|-
+! 154
+| ''The Legend of the Emerald Lady''
+| 2000
+|-
+! 155
+| ''The Mystery in Tornado Alley''
+| 2000
+| colspan="2" |[[George Edward Stanley]]
+|-
+! 156
+| ''The Secret in the Stars''
+| 2000
+| colspan="2" rowspan="4" {{unknown}}
+|-
+! 157
+| ''The Music Festival Mystery''
+| 2000
+|-
+! 158
+| ''The Curse of the Black Cat''
+| 2001
+|-
+! 159
+| ''The Secret of the Fiery Chamber''
+| 2001
+|-
+|}
+
+=== Aladdin Books (2001–2026) ===
+With the new millennium, the series changed publishers to the Aladdin subdivision of Simon & Schuster. With declining sales and the departure of longtime editor Anne Greenberg, Simon & Schuster ended the original series in November 2003.
+
+Continuity errors are common throughout these books: in ''No Strings Attached'' and ''Danger on the Great Lakes'' (both written by [[George Edward Stanley]]), Nancy and her friends are 17 rather than 18; Ned is also mentioned to be as the same age as Nancy and works as an intern at a company; and George has chestnut hair (rather than brown). In ''Werewolf in a Winter Wonderland'', Ned is blond, and it is suggested that Nancy might be in college. Numerous typographic errors and mistakes are also found throughout these books.
+
+{| class="wikitable"
+|+ Titles, authorship, and publication dates (2001–2003)
+|-
+! {{abbr|No.|Number}}
+! scope="col" style="width:17em;" |Title
+! {{abbr|Pub.|Publication date}}
+! scope="col" style="width:13em;" |Outline
+! scope="col" style="width:13em;" |Manuscript
+! scope="col" style="width:13em;" |Editor
+|-
+! 160
+| ''The Clue on the Crystal Dove''
+|2001
+| colspan="2" rowspan="10" {{unknown}}
+| rowspan="10"| Anne Greenberg
+|-
+! 161
+| ''Lost in the Everglades''
+|2001
+|-
+! 162
+| ''The Case of the Lost Song''
+|2001
+|-
+! 163
+| ''The Clues Challenge''
+|2001
+|-
+! 164
+| ''The Mystery of the Mother Wolf''
+|2002
+|-
+! 165
+| ''The Crime Lab Case''
+|2002
+|-
+! 166
+| ''The Case of the Creative Crime''
+|2002
+|-
+! 167
+| ''[[Mystery By Moonlight|Mystery by Moonlight]]''
+|2002
+|-
+! 168
+| ''[[The Bike Tour Mystery]]''
+|2002
+|-
+! 169
+| ''[[The Mistletoe Mystery]]''
+|2002
+|-
+! 170
+| ''[[No Strings Attached (novel)|No Strings Attached]]''
+|2003
+| colspan="2" | George Edward Stanley
+| rowspan="6" {{unknown}}
+|-
+! 171
+| ''Intrigue at the Grand Opera''
+|2003
+| colspan="2" rowspan="2" {{unknown}}
+|-
+! 172
+| ''[[The Riding Club Crime]]''
+|2003
+|-
+! 173
+| ''[[Danger on the Great Lakes]]''
+|2003
+| colspan="2" | George Edward Stanley
+|-
+! 174
+| ''A Taste of Danger''
+|2003
+| colspan="2" rowspan="2" {{unknown}}
+|-
+! 175
+| ''Werewolf in a Winter Wonderland''
+|2003
+|-
+|}
+
+== Foreign publications ==
+=== United Kingdom ===
+The ''Nancy Drew Mystery Series'' was published in a series of hardbacks and paperbacks in the [[United Kingdom]], starting in 1971 and 1973. The British publisher was [[William Collins, Sons|Collins]], and its paperback imprint [[Armada Books]] (which also published the [[Hardy Boys]] and [[Three Investigators]], among other series). When the ''Nancy Drew'' series was published in England, the order was changed significantly and the titles' numbering was revised from the American standard, as Armada was "obliged to publish No. 51 onwards before publishing Nos. 41-50".<ref>From the contents page of the books, as quoted at [http://www.nancydrewworld.com/formatd.html NancyDrewWorld: UK Nancy Drew Format E, by Lea Shangraw Fox] Accessed April 3, 2008</ref><ref>[http://www.nancydrewworld.com/uk2.html NancyDrewWorld UK - Picture Covers & Paperbacks]. Accessed April 3, 2008</ref>
+
+Thus, the original fifty-six American [[Grosset & Dunlap]]-published titles become the first fifty UK titles, with #57-78 being published as #51-72. Collins, therefore, had a deal in place with both American publishers and, indeed, were obliged "for contractual reasons" to publish some of the later Simon & Schuster titles ''before'' some of the Grosset & Dunlap ones. Collins/Armada published the twenty-two Simon & Schuster/Wanderer titles in sequence, albeit off by six, and then finished publishing the six "missing" Grosset & Dunlap titles (including the first, ''[[The Secret of the Old Clock]]'').
+
+The twenty-two (US) Wanderer imprint titles were produced between 1979 and 1985, after which the main ''Nancy Drew Mystery Stories'' went on a short hiatus. During this time, Simon & Schuster began publishing ''[[The Nancy Drew Files]]'' series for older teenagers, and subsequently re-aligned the main series, moving it to a new imprint in 1987, with ''The Double Horror of Fenley Place'', the first ''Nancy Drew'' title published under the American Minstrel imprint. Accordingly, after publishing twenty-two Wanderer (and seventy-eight overall) titles in the main ''Nancy Drew'' series, the Collins/Armada licence terminated in June 1992. The following month, Simon & Schuster itself began publishing the more recent Minstrel imprint titles under their [[Pocket Books]] UK imprint, starting with the now numerically-aligned #79.
+
+== Special editions and reprints ==
+=== Reader's Club ===
+''Nancy Drew'' was issued as a book club feature, the Nancy Drew Reader's Club, from 1959 to early 1961. In all, twelve volumes were issued, six in 1959 and six in 1960.<ref name="nancydrewsleuth1">Fisher, Jenn. "Nancy Drew Sleuth: Cameo Editions." http://www.nancydrewsleuth.com/cameo.html</ref> These volumes were issued with new illustrations by artist Polly Bolian. The volumes matched [[Grosset & Dunlap]]'s other Doubleday Book Club publication, Young Library. A full color jacket illustration was repeated as the [[Hardy Boys|frontispiece]], and double-page pen and ink drawings highlighted the texts. References or notices for other volumes, and volume numbering, was removed from the text and the jackets.
+
+Plans for additional titles were abandoned after two years and the series ceased publication in early 1961. The volumes are highly desired by today's collectors due to their original artwork and the scarcity of their [[dust jacket]]s, made on inferior, lightweight [[Hardy Boys|matte]] paper instead of heavier-gauge [[glossy paper]] used on other editions. The books with jackets are considered scarce, those with a 1960 date being much more difficult to find by collectors.<ref name="nancydrewsleuth1"/>
+
+=== Book club editions ===
+''Nancy Drew'' was issued in the yellow-spine picture format, as a book club, in 1962.<ref>Fisher, Jenn. "Nancy Drew Sleuth: Book Club Editions." http://www.nancydrewsleuth.com/bookclubpc.html</ref> The back covers were solid yellow, and spines feature no volume numbers. "Book Club Edition" appears on the title page. Only Volumes 1&ndash;32 were issued. In the 1970s, a book club offer was available directly from the publisher, but these volumes were exactly the same as regularly purchased volumes; they were simply mailed on schedule to the subscriber.
+
+=== Twin Thriller ===
+Several ''Nancy Drew'' books were published as two-volumes-in-one in the 1970s.<ref>Fisher, Jenn. "Nancy Drew Sleuth: Twin Thrillers." http://www.nancydrewsleuth.com/twinthriller.html</ref> Covers featured geometric clover designs on lilac grey, with a [[vignette (graphic design)|vignette]] from one of the two volumes' original cover art. All of the volumes are sequential, i.e., 1&ndash;2, 3&ndash;4, except for the final two issued. Volumes 17 and 24 appear together as one, as they were not revised until the mid-1970s.
+
+=== Applewood Books reprints ===
+[[Applewood Books]] began reprinting facsimile editions of the early ''Nancy Drew'' and ''[[Hardy Boys]]'' in 1991.  The books feature the original dust jacket art, original illustrations (although not scattered through the text), original texts, and duplication binding of the early Nancy Drew format. Many of the volumes contain forewords from adult author fans of the series, such as [[Sara Paretsky]]. Applewood issued original series titles up to #21, ''The Secret in the Old Attic''.  Although Volumes 22 and 23, ''The Clue in the Crumbling Wall'' and ''The Mystery of the Tolling Bell,'' respectively, were featured in the 2006–2007 catalogue, these additional titles were not ultimately published as company representatives stated that sales of later volumes had tapered and plans to extend the line were discontinued in 2007.{{citation needed|date=March 2009}}
+
+=== Literarture lithographs ===
+In late 2006, Literarture, licensed by Simon & Schuster, began releasing prints of classic ''Nancy Drew'' dust jacket artwork by Russell Tandy, Bill Gillies and Rudy Nappi derived from pristine vintage art elements and, in some cases, following extensive research, the original paintings themselves.<ref>Fisher, Jenn. "Nancy Drew Sleuth: Modern Collectibles and Merchandise." http://www.nancydrewsleuth.com/cmerch.html</ref> The jackets were issued as limited-edition offset [[lithographs]].
+
+=== Grosset & Dunlap reissues ===
+In early 2007, Grosset and Dunlap began retailing special volumes of ''Nancy Drew'' mysteries with original artwork but revised content in different product assortments and packaging.{{citation needed|date=March 2009}}
+
+=== Novelty title ===
+In 2023, Simon & Schuster partnered with Wandering Planet Toys to publish a small book in conjunction with a line of collector dolls based on the covers by Rudy Nappi. [[Jan Gangsei]] ghostwrote the book titled ''Case of the Curious Collection'', which was labelled as "56.5" in a nod to the original series.
+
+== Notes ==
+{{Notelist}}
+
+== References ==
+{{Reflist}}
+
+== External links ==
+
+* {{StandardEbooks|Standard Ebooks URL=https://standardebooks.org/collections/nancy-drew-mystery-stories}}
+{{Nancy Drew}}
+{{Authority control}}
+
+{{DEFAULTSORT:Nancy Drew Mystery Stories}}
+[[Category:Book series introduced in 1930]]
+[[Category:Nancy Drew books| ]]
+[[Category:Book series]]
+[[Category:Juvenile series]]
+[[Category:Children's book series]]
+[[Category:American novels adapted into television shows]]
+
+[[fi:Paula Drew]]

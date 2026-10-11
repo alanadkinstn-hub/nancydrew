@@ -1,0 +1,1150 @@
+{{Short description|none}}
+{{Italic title|string=Nancy Drew}}
+The character of [[Nancy Drew]] &ndash; [[ghostwriter|ghostwritten]] and credited to the pseudonymous [[Carolyn Keene]] &ndash; has appeared in a number of series over the years.
+
+621 ''Nancy Drew'' books have been published as of January 2026 over thirteen series, as follows:
+
+==Series overview==
+*''[[Nancy Drew Mystery Stories]]'' (1930–2003; 175 titles + 34 revisions; 8 revisions with different stories). The first 34 titles were 25 chapters long, before being shortened to 20 chapters in 1959)
+**Seven special titles released between 1973 and 1985.
+**''Nancy Drew and The Hardy Boys: Be A Detective Mystery Stories'' (1984–1985; 6 titles)
+*''[[Nancy Drew: Girl Detective]]'' (2004–2012; 47 titles + 3 "SuperMysteries" + 1 "Ghost Stories")
+**''[[Nancy Drew: Girl Detective#Nancy Drew and the Hardy Boys Super Mystery|Nancy Drew and the Hardy Boys Super Mystery (2007)]]'' (2007–2012; 6 titles)
+**''Nancy Drew Diaries''* (2013-present; 27 titles + 1 special)
+
+===For young adults===
+*''[[The Nancy Drew Files]]'' (1986–1997; 124 titles)
+**''[[Super Mystery|Nancy Drew and The Hardy Boys Super Mystery]]'' (1989–1998; 36 titles)
+**''[[River Heights (Nancy Drew)|River Heights]]'' (1989–1992; 16 titles + 1 "Super Sizzler")
+*''[[Nancy Drew on Campus]]'' (1995–1998; 25 titles)
+
+===For children===
+*''[[Nancy Drew Notebooks]]'' (1994–2005; 69 titles)
+*''[[Nancy Drew and the Clue Crew]]'' (2006–2015; 40 titles)
+*''Nancy Drew Clue Book'' (2015-2024; 19 titles)
+
+===Graphic novels===
+*''[[Nancy Drew: Girl Detective#Graphic novels|Nancy Drew: Girl Detective]]'' (2005–2010; 21 titles + 3 "New Case Files")
+**Rereleased under the ''Nancy Drew Diaries'' banner, with 10 collections of two titles a book
+*''Nancy Drew Omnibus Vol. 1'' (March 2021)
+
+===Comic books===
+Published by [[Dynamite Entertainment]].
+*''Nancy Drew and the Hardy Boys: The Big Lie'' (March–August 2017; 6 issues)
+*''Nancy Drew'' (June–October 2018; 5 issues)
+*''Nancy Drew: The Palace of Wisdom'' ([[Paperback|Trade paperback]]: February 2019; Hardcover: January 2020)
+*''Nancy Drew & The Hardy Boys: The Mystery of the Missing Adults!'' (July 2019)
+*''Nancy Drew & The Hardy Boys: The Death of Nancy Drew'' (April–November 2020; 6 issues)
+**Rereleased as a [[Trade paperback (comics)|trade paperback]] in March 2021
+
+==''Nancy Drew Mystery Stories'' (1930–2003)==
+{{Main|Nancy Drew Mystery Stories}}
+
+{| class="wikitable"
+|+ Titles, authorship, and publication dates<ref>{{Cite web |last=McDaniel |first=C. J. |date=2020-05-22 |title=The Full List of Nancy Drew Books in Order |url=https://www.adazing.com/nancy-drew-books/ |access-date=2024-03-06 |website=Adazing |language=en-US}}</ref>
+|-
+! No.
+! Title
+! Pub./Rev.
+! Publisher
+|-
+! 1
+| ''[[The Secret of the Old Clock]]''
+| 1930/1959
+| rowspan="56"| [[Grosset & Dunlap]]
+|-
+! 2
+| ''[[The Hidden Staircase]]''
+| 1930/1959
+|-
+! 3
+| ''[[The Bungalow Mystery]]''
+| 1930/1960
+|-
+! 4
+| ''[[The Mystery at Lilac Inn]]''
+| 1930/1961
+|-
+! 5
+|''[[The Secret at Shadow Ranch|The Secret Of Shadow Ranch]]''
+| 1931/1965
+|-
+! 6
+| ''[[The Secret of Red Gate Farm]]''
+| 1931/1961
+|-
+! 7
+| ''[[The Clue in the Diary]]''
+| 1932/1962
+|-
+! 8
+| ''[[Nancy's Mysterious Letter]]''
+| 1932/1968
+|-
+! 9
+| ''[[The Sign of the Twisted Candles]]''
+| 1933/1968
+|-
+! 10
+| ''[[The Password to Larkspur Lane]]''
+| 1933/1966
+|-
+! 11
+| ''[[The Clue of the Broken Locket]]''
+| 1934/1965
+|-
+! 12
+| ''[[The Message in the Hollow Oak]]''
+| 1935/1972
+|-
+! 13
+| ''[[The Mystery of the Ivory Charm]]''
+| 1936/1974
+|-
+! 14
+| ''[[The Whispering Statue]]''
+| 1937/1970
+|-
+! 15
+| ''[[The Haunted Bridge]]''
+| 1937/1972
+|-
+! 16
+| ''[[The Clue of the Tapping Heels]]''
+| 1939/1969
+|-
+! 17
+| ''[[The Mystery of the Brass-Bound Trunk]]''
+| 1940/1976
+|-
+! 18
+| ''[[The Mystery at the Moss-Covered Mansion]]''
+| 1941/1971
+|-
+! 19
+| ''[[The Quest of the Missing Map]]''
+| 1942/1969
+|-
+! 20
+| ''[[The Clue in the Jewel Box]]''
+| 1943/1972
+|-
+! 21
+| ''[[The Secret in the Old Attic]]''
+| 1944/1970
+|-
+! 22
+| ''[[The Clue in the Crumbling Wall]]''
+| 1945/1973
+|-
+! 23
+| ''[[The Mystery of the Tolling Bell]]''
+| 1946/1973
+|-
+! 24
+| ''[[The Clue in the Old Album]]''
+| 1947/1977
+|-
+! 25
+| ''[[The Ghost of Blackwood Hall]]''
+| 1948/1967
+|-
+! 26
+| ''[[The Clue of the Leaning Chimney]]''
+| 1949/1967
+|-
+! 27
+| ''[[The Secret of the Wooden Lady]]''
+| 1950/1967
+|-
+! 28
+| ''[[The Clue of the Black Keys]]''
+| 1951/1968
+|-
+! 29
+| ''[[The Mystery at the Ski Jump]]''
+| 1952/1968
+|-
+! 30
+| ''[[The Clue of the Velvet Mask]]''
+| 1953/1969
+|-
+! 31
+| ''[[The Ringmaster's Secret]]''
+| 1953/1974
+|-
+! 32
+| ''[[The Scarlet Slipper Mystery]]''
+| 1954/1974
+|-
+! 33
+| ''[[The Witch Tree Symbol]]''
+| 1955/1975
+|-
+! 34
+| ''[[The Hidden Window Mystery]]''
+| 1956/1975
+|-
+! 35
+| ''[[The Haunted Showboat]]''
+| 1957
+|-
+! 36
+| ''[[The Secret of the Golden Pavilion]]''
+| 1959
+|-
+! 37
+| ''[[The Clue in the Old Stagecoach]]''
+| 1960
+|-
+! 38
+| ''[[The Mystery of the Fire Dragon]]''
+| 1961
+|-
+! 39
+| ''[[The Clue of the Dancing Puppet]]''
+| 1962
+|-
+! 40
+| ''[[The Moonstone Castle Mystery]]''
+| 1963
+|-
+! 41
+| ''[[The Clue of the Whistling Bagpipes]]''
+| 1964
+|-
+! 42
+| ''[[The Phantom of Pine Hill]]''
+| 1965
+|-
+! 43
+| ''[[The Mystery of the 99 Steps]]''
+| 1966
+|-
+! 44
+| ''[[The Clue in the Crossword Cipher]]''
+| 1967
+|-
+! 45
+| ''[[The Spider Sapphire Mystery]]''
+| 1968
+|-
+! 46
+| ''[[The Invisible Intruder]]''
+| 1969
+|-
+! 47
+| ''[[The Mysterious Mannequin]]''
+| 1970
+|-
+! 48
+| ''[[The Crooked Banister]]''
+| 1971
+|-
+! 49
+| ''[[The Secret of Mirror Bay]]''
+| 1972
+|-
+! 50
+| ''[[The Double Jinx Mystery]]''
+| 1973
+|-
+! 51
+| ''[[Mystery of the Glowing Eye]]''
+| 1974
+|-
+! 52
+| ''[[The Secret of the Forgotten City]]''
+| 1975
+|-
+! 53
+| ''[[The Sky Phantom]]''
+| 1976
+|-
+! 54
+| ''[[The Strange Message in the Parchment]]''
+| 1977
+|-
+! 55
+| ''[[Mystery of Crocodile Island]]''
+| 1978
+|-
+! 56
+| ''[[The Thirteenth Pearl]]''
+| 1979
+|-
+! 57
+| ''[[The Triple Hoax]]''
+| 1979
+| rowspan="22"| Wanderer
+|-
+! 58
+| ''[[The Flying Saucer Mystery]]''
+| 1980
+|-
+! 59
+| ''[[The Secret in the Old Lace]]''
+| 1980
+|-
+! 60
+| ''[[The Greek Symbol Mystery]]''
+| 1980
+|-
+! 61
+| ''[[The Swami's Ring]]''
+| 1981
+|-
+! 62
+| ''[[The Kachina Doll Mystery]]''
+| 1981
+|-
+! 63
+| ''[[The Twin Dilemma (novel)|The Twin Dilemma]]''
+| 1981
+|-
+! 64
+| ''[[Captive Witness]]''
+| 1981
+|-
+! 65
+| ''[[Mystery of the Winged Lion]]''
+| 1982
+|-
+! 66
+| ''[[Race Against Time (Nancy Drew)|Race Against Time]]''
+| 1982
+|-
+! 67
+| ''[[The Sinister Omen]]''
+| 1982
+|-
+! 68
+| ''[[The Elusive Heiress]]''
+| 1982
+|-
+! 69
+| ''[[Clue in the Ancient Disguise]]''
+| 1982
+|-
+! 70
+| ''[[The Broken Anchor]]''
+| 1983
+|-
+! 71
+| ''[[The Silver Cobweb]]''
+| 1983
+|-
+! 72
+| ''[[The Haunted Carousel (book)|The Haunted Carousel]]''
+| 1983
+|-
+! 73
+| ''[[Enemy Match]]''
+| 1984
+|-
+! 74
+| ''[[The Mysterious Image]]''
+| 1984
+|-
+! 75
+| ''[[The Emerald-Eyed Cat Mystery]]''
+| 1984
+|-
+! 76
+| ''[[The Eskimo's Secret]]''
+| 1985
+|-
+! 77
+| ''[[The Bluebeard Room]]''
+| 1985
+|-
+! 78
+| ''The Phantom of Venice''
+| 1985
+|-
+! 79
+| ''[[The Double Horror of Fenley Place]]''
+| 1987
+| rowspan="81"| Minstrel
+|-
+! 80
+| ''[[The Case of the Disappearing Diamonds (novel)|The Case of the Disappearing Diamonds]]''
+| 1987
+|-
+! 81
+| ''[[The Mardi Gras Mystery]]''
+| 1988
+|-
+! 82
+| ''[[The Clue in the Camera]]''
+| 1988
+|-
+! 83
+| ''[[The Case of the Vanishing Veil]]''
+| 1988
+|-
+! 84
+| ''The Joker's Revenge''
+| 1988
+|-
+! 85
+| ''[[The Secret of Shady Glen]]''
+| 1988
+|-
+! 86
+| ''[[The Mystery of Misty Canyon]]''
+| 1988
+|-
+! 87
+| ''[[The Case of the Rising Stars]]''
+| 1989
+|-
+! 88
+| ''[[The Search for Cindy Austin]]''
+| 1989
+|-
+! 89
+| ''[[The Case of the Disappearing Deejay]]''
+| 1989
+|-
+! 90
+| ''[[The Puzzle at Pineview School]]''
+| 1989
+|-
+! 91
+| ''[[The Girl Who Couldn't Remember]]''
+| 1989
+|-
+! 92
+| ''[[The Ghost of Craven Cove]]''
+| 1989
+|-
+! 93
+| ''[[The Case of the Safecracker's Secret]]''
+| 1990
+|-
+! 94
+| ''[[The Picture-Perfect Mystery]]''
+| 1990
+|-
+! 95
+| ''[[The Silent Suspect]]''
+| 1990
+|-
+! 96
+| ''[[The Case of the Photo Finish]]''
+| 1990
+|-
+! 97
+| ''[[The Mystery of Magnolia Mansion]]''
+| 1990
+|-
+! 98
+| ''[[The Haunting of Horse Island]]''
+| 1990
+|-
+! 99
+| ''[[The Secret at Seven Rocks]]''
+| 1991
+|-
+! 100
+| ''[[A Secret in Time]]''
+| 1991
+|-
+! 101
+| ''[[The Mystery of the Missing Millionairess]]''
+| 1991
+|-
+! 102
+| ''[[The Secret in the Dark]]''
+| 1991
+|-
+! 103
+| ''[[The Stranger in the Shadows]]''
+| 1991
+|-
+! 104
+| ''[[The Mystery of the Jade Tiger]]''
+| 1991
+|-
+! 105
+| ''[[The Clue in the Antique Trunk]]''
+|1992
+|-
+! 106
+| ''[[The Case of the Artful Crime]]''
+| 1992
+|-
+! 107
+| ''[[The Legend of Miner's Creek]]''
+| 1992
+|-
+! 108
+| ''[[The Secret of the Tibetan Treasure]]''
+| 1992
+|-
+! 109
+| ''[[The Mystery of the Masked Rider]]''
+| 1992
+|-
+! 110
+| ''[[The Nutcracker Ballet Mystery]]''
+| 1992
+|-
+! 111
+| ''[[The Secret at Solaire]]''
+| 1993
+|-
+! 112
+| ''[[Crime in the Queen's Court]]''
+| 1993
+|-
+! 113
+| ''[[The Secret Lost at Sea]]''
+| 1993
+|-
+! 114
+| ''[[The Search for the Silver Persian]]''
+| 1993
+|-
+! 115
+| ''[[The Suspect in the Smoke]]''
+| 1993
+|-
+! 116
+| ''[[The Case of the Twin Teddy Bears]]''
+| 1993
+|-
+! 117
+| ''[[Mystery on the Menu]]''
+| 1994
+|-
+! 118
+| ''[[Trouble At Lake Tahoe]]''
+| 1994
+|-
+! 119
+| ''[[The Mystery of the Missing Mascot]]''
+| 1994
+|-
+! 120
+| ''[[The Case of the Floating Crime]]''
+| 1994
+|-
+! 121
+| ''[[The Fortune Teller's Secret]]''
+| 1994
+|-
+! 122
+| ''[[The Message in the Haunted Mansion]]''
+| 1994
+|-
+! 123
+| ''[[The Clue on the Silver Screen]]''
+| 1995
+|-
+! 124
+| ''[[The Secret of the Scarlet Hand]]''
+| 1995
+|-
+! 125
+| ''[[The Teen Model Mystery]]''
+| 1995
+|-
+! 126
+| ''[[The Riddle in the Rare Book]]''
+| 1995
+|-
+! 127
+| ''[[The Case of the Dangerous Solution]]''
+| 1995
+|-
+! 128
+| ''[[The Treasure in the Royal Tower (novel)|The Treasure in the Royal Tower]]''
+| 1995
+|-
+! 129
+| ''[[The Baby-Sitter Burglaries]]''
+| 1996
+|-
+! 130
+| ''[[The Sign of the Falcon]]''
+| 1996
+|-
+! 131
+| ''[[The Hidden Inheritance]]''
+| 1996
+|-
+! 132
+| ''[[The Fox Hunt Mystery]]''
+| 1996
+|-
+! 133
+| ''[[The Mystery at the Crystal Palace]]''
+| 1996
+|-
+! 134
+| ''[[The Secret of the Forgotten Cave]]''
+| 1996
+|-
+! 135
+| ''[[The Riddle of the Ruby Gazelle]]''
+| 1997
+|-
+! 136
+| ''[[The Wedding Day Mystery]]''
+| 1997
+|-
+! 137
+| ''[[In Search of the Black Rose]]''
+| 1997
+|-
+! 138
+| ''[[The Legend of the Lost Gold]]''
+| 1997
+|-
+! 139
+| ''[[The Secret of Candlelight Inn]]''
+| 1997
+|-
+! 140
+| ''[[The Door-to-Door Deception]]''
+| 1997
+|-
+! 141
+| ''[[The Wild Cat Crime]]''
+| 1998
+|-
+! 142
+| ''[[The Case of Capital Intrigue]]''
+| 1998
+|-
+! 143
+| ''[[Mystery on Maui]]''
+| 1998
+|-
+! 144
+| ''[[The E-mail Mystery]]''
+| 1998
+|-
+! 145
+| ''[[The Missing Horse Mystery]]''
+| 1998
+|-
+! 146
+| ''[[The Ghost of the Lantern Lady]]''
+| 1998
+|-
+! 147
+| ''[[The Case of the Captured Queen]]''
+| 1999
+|-
+! 148
+| ''[[On the Trail of Trouble]]''
+| 1999
+|-
+! 149
+| ''[[The Clue of the Gold Doubloons]]''
+| 1999
+|-
+! 150
+| ''[[Mystery at Moorsea Manor]]''
+| 1999
+|-
+! 151
+| ''[[The Chocolate-Covered Contest]]''
+| 1999
+|-
+! 152
+| ''[[The Key in the Satin Pocket]]''
+| 2000
+|-
+! 153
+| ''[[Whispers In the Fog]]''
+| 2000
+|-
+! 154
+| ''[[The Legend of the Emerald Lady]]''
+| 2000
+|-
+! 155
+| ''[[The Mystery in Tornado Alley]]''
+| 2000
+|-
+! 156
+| ''[[The Secret in the Stars]]''
+| 2000
+|-
+! 157
+| ''[[The Music Festival Mystery]]''
+| 2000
+|-
+! 158
+| ''[[The Curse of the Black Cat]]''
+| 2001
+|-
+! 159
+| ''[[The Secret of the Fiery Chamber]]''
+| 2001
+|-
+! 160
+| ''[[The Clue on the Crystal Dove]]''
+| 2001
+| rowspan="16"| Aladdin
+|-
+! 161
+| ''[[Lost in the Everglades]]''
+| 2001
+|-
+! 162
+| ''[[The Case of the Lost Song]]''
+| 2001
+|-
+! 163
+| ''[[The Clues Challenge]]''
+| 2001
+|-
+! 164
+| ''[[The Mystery of the Mother Wolf]]''
+| 2002
+|-
+! 165
+| ''[[The Crime Lab Case]]''
+| 2002
+|-
+! 166
+| ''[[The Case of the Creative Crime]]''
+| 2002
+|-
+! 167
+| ''[[Mystery By Moonlight]]''
+| 2002
+|-
+! 168
+| ''[[The Bike Tour Mystery]]''
+| 2002
+|-
+! 169
+| ''[[The Mistletoe Mystery]]''
+| 2002
+|-
+! 170
+| ''[[No Strings Attached (novel)|No Strings Attached]]''
+| 2003
+|-
+! 171
+| ''[[Intrigue at the Grand Opera]]''
+| 2003
+|-
+! 172
+| ''[[The Riding Club Crime]]''
+| 2003
+|-
+! 173
+| ''[[Danger on the Great Lakes]]''
+| 2003
+|-
+! 174
+| ''[[A Taste of Danger]]''
+| 2003
+|-
+! 175
+| ''[[Werewolf in a Winter Wonderland]]''
+| 2003
+|}
+
+===Specials===
+* ''The Nancy Drew Cookbook: Clues to Good Cooking'' (1973)
+* ''Nancy Drew Picture Book: Mystery of the Lost Dogs'' (1977)
+* ''Nancy Drew Picture Book: The Secret of the Twin Puppets'' (1977)
+* ''The Nancy Drew Sleuth Book: Clues to Good Sleuthing'' (1979)
+* ''Nancy Drew and the Hardy Boys: Super Sleuths'' (1981)
+* ''Nancy Drew Ghost Stories'' (1983)
+* ''Nancy Drew and the Hardy Boys: Super Sleuths #2'' (1984)
+* ''Nancy Drew and the Hardy Boys: Campfire Stories'' (1984)
+* ''Nancy Drew Ghost Stories #2'' (1985)
+* ''Case of the Curious Collection'' (2023)
+
+The first four works were published by Grosset & Dunlap. ''The Nancy Drew Cookbook'' contained recipes and short stories. Both titles under the ''Nancy Drew Picture Book'' banner were illustrated picture books aimed at younger readers. ''The Nancy Drew Sleuth Book'' contained short stories that involved Nancy teaching a group of younger girls how she solves her mysteries, and gives lessons to the reader on the techniques used.
+
+The first ''Nancy Drew and the Hardy Boys: Super Sleuths'' book was published in 1981, after switching over to Simon & Schuster. The book contained seven short stories in which Nancy Drew crosses over to solve mysteries with The Hardy Boys; both the Carolyn Keene pseudonym and The Hardy Boys' [[Franklin W. Dixon]] pseudonym are used. The story was so popular, that it spawned a sequel, a spin-off series, and a ''Campfire Stories'' companion.
+
+In 1983, ''Nancy Drew Ghost Stories'' was published, also containing seven short stories. It, too, spawned a sequel in 1985. Unlike other specials, though, the first volume was reprinted by the later Minstrel and Aladdin imprints.
+
+== ''Nancy Drew and the Hardy Boys: Be a Detective Mystery Stories'' (1984–1985) ==
+These titles feature a level of reader-interaction in a manner similar to the ''[[Choose Your Own Adventure]]'' books. The series was published by Wanderer.
+
+Two more volumes, ''Jungle of Evil'' and ''Ticket to Intrigue'', were planned and advertised, but were unpublished after the sale of the Stratemeyer Syndicate to Simon & Schuster.<ref>{{cite web|last=Finnan|first=R. W.|title=The Hardy Boys Unofficial Home Page|url=http://hardyboys.us/hbbeadetective.htm|access-date=March 3, 2019}}</ref>
+
+{| class="wikitable"
+|+ Titles and publication dates
+|-
+! {{Abbr|No.|Number}}
+! Title
+! Pub.
+|-
+! 1
+| ''The Secret of the Knight’s Sword''
+| rowspan="4"| 1984
+|-
+! 2
+| ''Danger on Ice''
+|-
+! 3
+| ''The Feathered Serpent''
+|-
+! 4
+| ''Secret Cargo''
+|-
+! 5
+| ''The Alaskan Mystery''
+| rowspan="2"| 1985
+|-
+! 6
+| ''The Missing Money Mystery''
+|}
+
+== ''Nancy Drew Notebooks'' (1994–2005) ==
+{{Main|Nancy Drew Notebooks}}
+
+The ''[[Nancy Drew Notebooks]]'' were aimed at younger readers and featured a Nancy who was still in grade school. The series was published from 1994 to 2005.
+
+==''The Nancy Drew Files'' (1986–1997)==
+{{Main|The Nancy Drew Files}}
+
+In 1986, Simon & Schuster, Inc. began publishing a spin-off series, ''[[The Nancy Drew Files]]'', running concurrently with the main ''[[Nancy Drew Mystery Stories]]'' line. ''The Nancy Drew Files'' were aimed at an older, teenage audience, and is similar in style, target audience, and sensibilities with ''[[List of Hardy Boys books#The Hardy Boys Casefiles (1987–1998)|The Hardy Boys Casefiles]]''.
+
+Starting in January 2014, Simon & Schuster began releasing this series as eBooks.
+
+Nancy Drew Files Volume I and Nancy Drew Files Volume II were published September 24, 2019 under the Simon Pulse imprint. These are reprints of the first six titles in the series, books 1, 2, and 3 in volume I and books 4, 5 and 6 in volume II. Cover art by Fernanda Suarez.
+
+== ''Nancy Drew and Hardy Boys Super Mystery'' (1988–1998) ==
+{{Main|Super Mystery}}
+
+The Hardy Boys and [[Nancy Drew]] teamed up in this 36 volume series of [[paperbacks]]. This series follows the formula of the main characters and their friends typically involved in separate mysteries that end up being connected. The sleuths join forces to solve the overall mystery. This series is based in the ''Nancy Drew Files'' and ''Hardy Boys Casefiles'' continuity, so murder, romance, and flirtation between the series regulars are common. Nancy Drew and Frank Hardy share an attraction in this series, though after a brief kiss in "The Last Resort" this attraction is not acted on. Subsequent books focus on the respect and friendship that developed between the two and their continued feelings for Ned Nickerson and Callie Shaw. Several spin-off series were cancelled by Simon and Schuster at the end of 1997, including the series ''Super Mystery'' (also called ''Nancy Drew and the Hardy Boys Super Mystery'').
+
+== ''River Heights'' ==
+{{Main|River Heights (Nancy Drew)}}
+
+This series does not feature Nancy Drew beyond a cameo appearance in a couple of books, but is set in her fictional hometown and still written under the Carolyn Keene pseudonym. The series focused on romance and lasted for only 16 titles.<ref name="Fisher">{{cite web
+  | last = Fisher
+  | first = Jennifer
+  | title = Nancy Drew Sleuth
+  | url = http://www.nancydrewsleuth.com/
+  | access-date = 15 March 2009}}</ref>
+
+== ''Nancy Drew on Campus'' ==
+{{Main|Nancy Drew on Campus}}
+
+The ''[[Nancy Drew on Campus]]'' series, like ''[[The Nancy Drew Files]]'', is targeted at an older teen audience. Nancy and her friends Bess Marvin and George Fayne go to college; the series focused on college life and romance, rather than all solving mysteries.<ref name="White">White</ref>{{Full citation needed|date=March 2019}}
+
+==''Nancy Drew, Girl Detective'' (2004–2012)==
+{{Main|Nancy Drew: Girl Detective}}
+
+''Nancy Drew, Girl Detective'' replaced the long-running [[Nancy Drew]] mysteries series. This new series is written in first person narration, from Nancy's point of view, and features updated and overhauled versions of the main Nancy Drew characters. In addition, new secondary characters are introduced to populate River Heights and appear over multiple books, adding a framework to Nancy's world.
+
+The drastic changes in the main characters' personalities, and a perception in quality decline, earned the series negative reviews from long-time fans. A switch to trilogies gave even more negative reviews, before low sales forced the series to be cancelled in 2011. In 2013, ''Nancy Drew, Girl Detective'' was replaced with the ''Nancy Drew Diaries'' series.
+
+== ''Papercutz'' graphic novels (2005–2010) ==
+{{Main|Nancy Drew: Girl Detective#Graphic novels}}
+
+Beginning in 2005, Papercutz began issuing a new series of Nancy Drew graphic novels as an offshoot of the ''[[Girl Detective]]'' series. The series is edited by [[Jim Salicrup]], written by Stefan Petrucha, and illustrated by Sho Murase. The manga-style illustrations and technical allusions (Nancy's hybrid car, George's tablet PC) give Nancy and her friends a 21st-century spin.
+
+In 2010, the series was rebooted as ''Nancy Drew: Girl Detective - The New Case Files''. These new novels center around a River Heights that has become obsessed with vampire books. However, the series was cancelled not long after. In 2014, the series began being re-released as an offshoot of the ''Nancy Drew Diaries'' series, with two volumes per issue.
+
+== ''Nancy Drew and the Clue Crew'' (2006–2015) ==
+{{Main|Nancy Drew: Girl Detective#Nancy Drew and the Clue Crew}}
+
+Starting in 2006, [[Aladdin Paperbacks]] published a new series to replace the ''Nancy Drew Notebooks'' series for younger readers; it exists in the same universe as the ''[[Nancy Drew: Girl Detective]]'' series. This series ended in 2015 to be replaced by the ''Nancy Drew Clue Book'' series.
+
+''Nancy Drew and the Clue Crew'' features Nancy Drew, George Fayne, and Bess Marvin as eight-year-olds in the third grade at River Heights Elementary School, and solving kid sized mysteries, from finding a stolen ice cream formula entry to the culprit who cut the cake before the bride.  This series also sets George's mother working her own catering company, and reveals George's real name to be Georgia.
+
+== ''Nancy Drew and the Hardy Boys Super Mystery'' (2007–2012) ==
+{{Main|Nancy Drew: Girl Detective#Nancy Drew and the Hardy Boys Super Mystery}}
+
+''Nancy Drew and the Hardy Boys Super Mystery'' is a crossover spin-off with ''[[Undercover Brothers|The Hardy Boys: Undercover Brothers]]'' series. The stories are told in first person, alternating chapters, between Frank's, Joe's, and Nancy's perspective. The first title in the series acts as an introduction between the characters in their new universes. This series published one title per year until the end of the ''Girl Detective'' and ''Undercover Brothers'' series in 2012.
+
+==''Nancy Drew Diaries'' (2013–current)==
+{{refimprove|date=October 2019}}
+This series, which began in 2013, is a reboot of the ''Nancy Drew: Girl Detective'' series. The series continues to follow Nancy and her friends' cases, with first-person narration by Nancy. The series was created to move away from the trilogy format of ''Girl Detective'' (besides the first two books, all titles are now individual mysteries), make books longer than its predecessor, and have a cover artist. The new series also attempted to fix some of the more criticized aspects of ''Girl Detective'', with arguable success.
+
+This is the first series to be available in three different formats; paperback, hardcover (with dust jacket), and eBooks. When the series was first launched, three new titles were expected to come out per year (with the exception of 2013 and 2015, which produced four new titles), but was later reduced to two titles per year in 2016. The first four titles had an initial printing of 25,000 copies in paperback and 2,500 copies in hardcover; books five through seven had an initial print run of 25,000 in paperback and 5,000 in hardcover; and books eight through eleven had an initial print run of 10,000 in paperback and 5,000 in hardcover.
+
+Books 1-4 were released in a box set in November 2013, and a boxed set of the first ten books was released in August 2016. A further boxed set was issued of the first ten titles with new cover exclusive to the set. This was promoted as a special 90th anniversary edition. In addition, the first three titles were packaged in a single paperback book in June 2016. Also available are unabridged audio books for CD or downloads for the first 26 books and the Christmas special, read by Jorjeana Marie.
+
+Artist Erin McGuire has served as the cover artist since the start of the series.
+
+===Titles===
+{| class="wikitable"
+|+ Titles and publication dates
+|-
+! {{Abbr|No.|Number}}
+! Title
+! Released
+! Manuscript
+! Editor
+|-
+! 1
+| ''Curse of the Arctic Star''
+| rowspan="2"| {{Start date|2013|02|05}}
+|
+| rowspan="6"| Margaret Wright
+|-
+! 2
+| ''Strangers on a Train''
+| Kekla Magoon
+|-
+! 3
+| ''Mystery of the Midnight Rider''
+| {{Start date|2013|05|07}}
+|-
+! 4
+| ''Once Upon a Thriller''
+| {{Start date|2013|09|24}}
+|-
+! 5
+| ''Sabotage at Willow Woods''
+| {{Start date|2014|01|05}}
+|-
+! 6
+| ''Secret at Mystic Lake''
+| {{Start date|2014|05|06}}
+|-
+! 7
+| ''The Phantom of Nantucket''
+| {{Start date|2014|09|23}}
+|
+| rowspan="10"| Amy Cloud
+|-
+! 8
+| ''The Magician's Secret''
+| {{Start date|2015|01|20}}
+|Stacia Deutsch
+|-
+! 9
+| ''The Clue at Black Creek Farm''
+| {{Start date|2015|05|12}}
+|-
+! 10
+| ''A Script for Danger''
+| {{Start date|2015|09|22}}
+| Ami Boghani<ref>{{cite web |title=Books: The Nancy Drew Diaries #10: A Script for Danger (2015) |url=https://www.amiboghani.com/portraiture/1xnc3r6kgmzkv45i3e7ccp4dpsjbie |website=Ami Boghani}}</ref>
+|-
+! 11
+| ''The Red Slippers''
+| {{Start date|2015|12|15}}
+| rowspan="6"|
+|-
+! 12
+| ''The Sign in the Smoke''
+| {{Start date|2016|05|10}}
+|-
+! 13
+| ''The Ghost of Grey Fox Inn''
+| {{Start date|2016|10|11}}
+|-
+! 14
+| ''Riverboat Roulette''
+| {{Start date|2017|01|03}}
+|-
+! 15
+| ''The Professor and the Puzzle''
+| {{Start date|2017|08|08}}
+|-
+! 16
+| ''The Haunting on Heliotrope Lane''
+| {{Start date|2018|01|02}}
+|-
+! 
+| ''A Nancy Drew Christmas''
+| {{Start date|2018|09|18}}
+| Reuben Sack
+| rowspan="2"| Fiona Simpson
+|-
+! 17
+| ''Famous Mistakes''
+| {{Start date|2019|01|15}}
+|-
+! 18
+| ''The Stolen Show''
+| {{Start date|2019|09|24}}<ref name="Diaries18">{{cite web |url=https://catalog.loc.gov/vwebv/holdingsInfo?searchId=10282&recCount=25&recPointer=2&bibId=20666451&searchType=7&resultPointer=0 |title=LC Catalog: The stolen show |author=<!--Not stated--> |date=<!--Not stated--> |website= LOC Catalog |publisher=[[Library of Congress]] |access-date=January 1, 2019}}</ref><ref>{{Cite book|title=The Stolen Show (Nancy Drew Diaries): Carolyn Keene: Amazon.com: Books|isbn = 978-1534405776|last1 = Keene|first1 = Carolyn|date = 2019-09-24| publisher=Simon and Schuster }}</ref>
+|
+| rowspan="11" | Anna Parsons
+|-
+! 19
+| ''Hidden Pictures''
+| {{Start date|2020|01|14}}<ref name="Diaries19">{{cite book |url=https://catalog.loc.gov/vwebv/holdingsInfo?searchId=2653&recCount=25&recPointer=0&bibId=20851172|title=Hidden pictures|series=Nancy Drew diaries |date=2020 |publisher=Aladdin |isbn=978-1-5344-2104-2 }}</ref><ref>{{Cite web|url=https://www.amazon.com/dp/B07TGF95FL/?coliid=INDYTDRRLFIVF&colid=2AMJGPLAPAK7L&psc=1&ref_=lv_ov_lig_dp_it|title=Hidden Pictures (Nancy Drew Diaries Book 19)|website=Amazon|access-date=June 29, 2019}}</ref>
+| 
+|-
+! 20
+| ''The Vanishing Statue''
+| {{Start date|2020|06|16}}<ref name="Diaries20">{{cite web |url=https://catalog.loc.gov/vwebv/staffView?searchId=3568&recPointer=5&recCount=25&bibId=21113434|title = LC Catalog - No Connections Available}}</ref>
+| 
+|-
+! 21
+| ''Danger at the Iron Dragon''
+| {{Start date|2021|01|12}}
+| 
+|-
+! 22
+| ''A Capitol Crime''
+| {{Start date|2021|05|25}}
+| 
+|-
+! 23
+| ''The Blue Lady of Coffin Hall''
+| {{Start date|2022|01|04}}
+| 
+|-
+! 24
+| ''Captain Stone's Revenge''
+| {{Start date|2023|01|10}}
+|Jan Gangsei
+|-
+! 25
+| ''What Disappears in Vegas . . .''
+| {{Start date|2024|01|23}}
+| 
+|-
+! 26
+| ''Superstitions of 'The Scottish Play'''
+| {{Start date|2025|01|21}}
+| 
+|-
+! 27
+| ''Vans & Villains''
+| {{Start date|2026|01|20}}
+| 
+|-
+! 28
+| ''Major Discord''
+| {{Start date|2027|01|26}}
+| 
+|}
+
+====Notes====
+*''Famous Mistakes'' was initially scheduled to be released in August 2018, though it was later replaced with ''A Nancy Drew Christmas''.<ref>{{Cite web|url=https://thehardyboysbooksandnancydrewbooks.wordpress.com/2017/11/16/nancy-drew-diaries-17-famous-mistakes-details/|title=Nancy Drew Diaries #17 Famous Mistakes – Details|author=Ann|date=November 16, 2017|access-date=June 29, 2019}}</ref> It was pushed back to January 2019, and still retained its status as the 17th title in the series.
+*''A Nancy Drew Christmas'' was released as an unnumbered, special-edition volume, initially available exclusively in eBook and hardcover formats. The paperback edition was subsequently published in September 2020, two years after the hardcover release. The book also features a guest appearance by characters from The Hardy Boys Adventures series (2013–present).
+*''Captain Stone's Revenge'' was initially scheduled to be published in July 2022. It was pushed back to January 2023, consistent with other Simon and Schuster titles scheduled to be published in the later part of 2022. Also impacted was the Hardy Boys Adventures Series ''The Smuggler's Legacy''.
+
+== ''Nancy Drew Clue Book'' Series (2015–2024) ==
+{{unreferenced section|date=February 2019}}
+This is a reboot of the ''Nancy Drew and the Clue Crew'' series published by [[Aladdin Paperbacks]]. This is an interactive series, as readers may write down their clues and predictions. A page before the final chapter has questions the reader can answer regarding suspects, clues, and solutions. The first two titles were published July 7, 2015, in paperback, hardcover, and eBook editions written by Carolyn Keene with covers and internal illustrations by Peter Francis. The first three titles have had an initial print run of 35,000 in paperback and 5,000 in hardcover. The Nancy Drew Clue Book series was quietly canceled in 2024 by Simon and Schuster. No further titles are planned.
+
+{| class="wikitable"
+|+ Titles and publication dates
+|-
+! {{Abbr|No.|Number}}
+! Title
+! Released
+|-
+! 1
+| ''Pool Party Puzzler''
+| rowspan="2"| {{Start date|2015|07|07}}
+|-
+! 2
+| ''Last Lemonade Standing''
+|-
+! 3
+| ''A Star Witness''
+| {{Start date|2015|11|03}}
+|-
+! 4
+| ''Big Top Flop''
+| {{Start date|2016|03|01}}
+|-
+! 5
+| ''Movie Madness''
+| {{Start date|2016|07|12}}
+|-
+! 6
+| ''Pets on Parade''
+| {{Start date|2016|10|18}}
+|-
+! 7
+| ''Candy Kingdom Chaos''
+| {{Start date|2017|3|17}}
+|-
+! 8
+| ''World Record Mystery''
+| {{Start date|2017|10|17}}
+|-
+! 9
+| ''Springtime Crime''
+| {{Start date|2018|3|20}}
+|-
+! 10
+| ''Boo Crew''
+| {{Start date|2018|9|4}}
+|-
+! 11
+| ''The Tortoise and the Scare''
+| {{Start date|2019|3|19}}
+|-
+! 12
+| ''Turkey Trot Plot''
+| September 3, 2019
+|-
+! 13
+| ''Puppy Love Prank''
+| {{Start date|2020|3|17}}
+|-
+! 14
+| ''The Big Island Burglary''
+| {{Start date|2020|7|28}}
+|-
+! 15
+| ''The Great Goat Gaffe''
+| {{Start date|2021|3|9}}
+|-
+! 16
+| ''Duck Derby Debacle''
+| {{Start date|2021|7|13}}
+|-
+! 17
+| ''Recipe Ruckus''
+| {{Start date|2022|03|08}}
+|-
+! 18
+| ''Bird Bonanza''
+| {{Start date|2023|06|06}}
+|-
+! 19
+| ''Chimpanzee Spree''
+| {{Start date|2024|06|11}}
+|-
+!
+| ''Nancy Drew Clue Book Summer Mysteries 3-in-1: Pool Party Puzzler; Last Lemonade Standing; The Big Island Burglary''
+|  {{Start date|2026|05|12}}
+|-
+!
+| ''Nancy Drew Clue Book Fall Mysteries 3-in-1: Boo Crew; Turkey Trot Plot; A Star Witness''
+|  {{Start date|2026|09|08}}
+|-
+!
+| ''Nancy Drew Clue Book Spring Mysteries 3-in-1: Springtime Crime; Puppy Love Prank; Bird Bonanza''
+|  {{Start date|2027|01|19}}
+|}
+
+==Other books/resources==
+*''[[The Nancy Drew Scrapbook]]'' (1993)
+*''[[Nancy Drew's Guide to Life]]'' (2001)
+*''[[Nancy Drew Mad Libs]]'' (2005)
+*''[[Clues to Real Life: The Wit and Wisdom of Nancy Drew]]'' (2007)
+*''Nancy Drew: A Novelization of the Hit Movie (2007)''
+*''[[The Lost Files Of Nancy Drew]]'' (2007)
+*''[[The Official Nancy Drew Handbook]]'' (2007)
+*''[[Nancy Drew Classic Paper Dolls]]'' (2011)
+*''[[Nancy Drew & Her Friends Paper Dolls]]'' (2012)
+*''[[Nancy Drew (2019 TV series)#Tie-in novels|Nancy Drew: The Curse]]'' (2020)
+
+==References==
+{{reflist}}
+
+==External links==
+
+
+{{Nancy Drew}}
+
+[[Category:Book series introduced in 1930]]
+[[Category:Nancy Drew books| ]]
