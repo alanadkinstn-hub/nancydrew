@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Nancy Drew Collection</title>
-<meta name="theme-color" content="#1b2f5e">
+<meta name="theme-color" content="#eee056">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -13,7 +13,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" href="icon-192.png">
 <style>
-:root{--navy:#1b2f5e;--navy2:#24407a;--gold:#d9a521;--gold2:#f0c94f;--cream:#f7f1e1;--paper:#fffdf7;--ink:#1b1b1b;--muted:#6b6b6b;--line:#e4dcc6;--ok:#2e7d4f;--red:#a33;
+:root{--navy:#1b2f5e;--navy2:#24407a;--gold:#d9a521;--gold2:#f0c94f;--ylw:#eee056;--ylw2:#f7eea0;--ylwd:#b89a00;--cream:#f7f1e1;--paper:#fffdf7;--ink:#1b1b1b;--muted:#6b6b6b;--line:#e4dcc6;--ok:#2e7d4f;--red:#a33;
 --safe-b:env(safe-area-inset-bottom,0px);--safe-t:env(safe-area-inset-top,0px)}
 [hidden]{display:none!important}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
@@ -74,7 +74,7 @@ nav.tabs a.on{color:var(--gold2)}
 .rs{font-size:12.5px;color:var(--muted);margin-top:2px}
 .badges{display:inline-flex;gap:4px;margin-left:4px;vertical-align:1px}
 .b{font:700 10.5px/1 sans-serif;padding:3px 5px;border-radius:4px;background:#e9e2cc;color:#555}
-.b.ot{background:#7a2e1f;color:#fff}.b.rt{background:#1f4e7a;color:#fff}.b.dj{background:var(--gold);color:var(--navy)}.b.ys{background:#f5d000;color:#333;border:1px solid #c9a800}.b.w{background:#fff3c4;color:#7a5a00;border:1px solid var(--gold)}
+.b.ot{background:#7a2e1f;color:#fff}.b.rt{background:#1f4e7a;color:#fff}.b.dj{background:var(--gold);color:var(--navy)}.b.sp{display:inline-flex;align-items:center;gap:3px;background:#fff;color:#444;border:1px solid #d8cda9}.b.sp i,.spc i{display:inline-block;width:8px;height:11px;border-radius:2px;border:1px solid rgba(0,0,0,.35)}.spchips{display:flex;flex-wrap:wrap;gap:6px}.spc{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--navy2);background:#fff;color:var(--navy2);border-radius:16px;padding:7px 11px;font:600 14px inherit;font-family:inherit;cursor:pointer;min-height:36px}.spc i{width:10px;height:15px}.spc.on{background:var(--navy2);color:#fff;box-shadow:inset 0 0 0 2px var(--gold)}.b.w{background:#fff3c4;color:#7a5a00;border:1px solid var(--gold)}
 .own{width:44px;height:44px;border-radius:50%;border:2px solid var(--navy2);background:#fff;color:var(--navy2);font-size:20px;cursor:pointer;flex:none;display:grid;place-items:center;font-weight:700}
 .own.on{background:var(--ok);border-color:var(--ok);color:#fff;font-size:15px}
 .star{background:none;border:0;font-size:22px;color:#c9c0a5;cursor:pointer;padding:4px;flex:none}
@@ -113,6 +113,17 @@ header{min-height:calc(var(--safe-t) + 54px)}
 .about a{color:var(--navy2)}
 .banner{background:#fff3c4;border:1px solid var(--gold);border-radius:10px;padding:10px 12px;font-size:14px;margin-bottom:10px}
 details summary{cursor:pointer;font-weight:600;color:var(--navy2)}
+/* Nancy Drew yellow-spine theme (v1.2): yellow chrome, navy text */
+header{background:var(--ylw);color:var(--navy);border-bottom:3px solid var(--navy)}
+header h1{color:var(--navy)}header .back{color:var(--navy);font-weight:700}
+header .hbadge{border-color:var(--navy);color:var(--navy)}
+nav.tabs{background:var(--ylw);border-top:3px solid var(--navy)}
+nav.tabs a{color:#4b4a2e}nav.tabs a.on{color:var(--navy);font-weight:700;box-shadow:inset 0 -3px 0 var(--navy)}
+.hero{background:var(--ylw);color:var(--navy);border:2px solid var(--navy)}
+.hero .big{color:var(--navy)}.hero .lbl{opacity:1;color:#3b3a28}
+#toast{background:var(--navy);color:#fff}#toastAct{background:var(--ylw);color:var(--navy)}#toastX{color:#fff}
+.bar>i{background:linear-gradient(90deg,var(--ylwd),var(--ylw))}
+.sub-h{background:var(--ylw2)}
 </style>
 </head>
 <body>
@@ -185,6 +196,10 @@ const ENDPAPERS=['','Blank / plain (1930–32, flashlight eds.)','Orange silhoue
 const YS_FORMAT='Matte yellow spine picture cover / YSPC (1962–86)';
 const DJSTYLES=['','White spine','Wraparound spine (art continues on spine)','Book club jacket','Facsimile / reproduction','Other'];
 const ILLUS=['','Russell H. Tandy','Bill Gillies','Rudy Nappi','Polly Bolian','Ruth Sanderson','Other','Unknown'];
+const SPINES=[['Yellow','#f2c81e'],['White','#f7f3e8'],['Orange','#e8822a'],['Blue','#2f78b8'],['Red','#9e2a2b'],['Green','#3f8a4a'],['Multicolor','conic-gradient(#e33,#fc3,#3a3,#39f,#e33)'],['Other','#9a8f7a'],['Unknown','repeating-linear-gradient(45deg,#ccc 0 2px,#fff 2px 4px)']];
+const SPCOL=Object.fromEntries(SPINES);
+// v1.7/ND1.1 stored a yes/no 'yspine'; it becomes spine:'Yellow' (yes) or unset (no).
+function migrateCopies(cs){let n=0;for(const c of cs||[]){if('yspine' in c){if(c.yspine===true&&!c.spine)c.spine='Yellow';delete c.yspine;n++}}return n}
 const CONDS=['','Fine','Near Fine','Very Good','Good','Fair','Poor'];
 
 // ---------- UI plumbing ----------
@@ -201,7 +216,7 @@ function sheet(html){const bg=document.createElement('div');bg.className='sheet-
 // ---------- rows ----------
 function rowHTML(b){const id=b.id,cs=copiesOf(id),own=cs.length>0,w=!!S.wish[id];
  let badges='';if(hasTexts(b)){if(textOwned(id,'Original'))badges+='<span class="b ot">OT</span>';if(textOwned(id,'Revised'))badges+='<span class="b rt">RT</span>'}
- if(cs.some(c=>c.dj))badges+='<span class="b dj">DJ</span>';if(cs.some(c=>c.yspine))badges+='<span class="b ys">YS</span>';if(w)badges+='<span class="b w">WANT</span>';if(dual(b)){const o=getR(id,'rOT'),r=getR(id,'rRT');badges=(o?'<span class="b rate">OT★'+o+'</span>':'')+(r?'<span class="b rate">RT★'+r+'</span>':'')+badges}else{const rr=getR(id,'rating');if(rr)badges='<span class="b rate">★'+rr+'</span>'+badges}
+ if(cs.some(c=>c.dj))badges+='<span class="b dj">DJ</span>';{const sp=[...new Set(cs.map(c=>c.spine).filter(v=>v&&v!=='Unknown'))];for(const v of sp)badges+=`<span class="b sp" title="${esc(v)} spine" aria-label="${esc(v)} spine" data-spine="${esc(v)}"><i style="background:${SPCOL[v]||'#999'}"></i>${esc(v==='Multicolor'?'Multi':v)}</span>`}if(w)badges+='<span class="b w">WANT</span>';if(dual(b)){const o=getR(id,'rOT'),r=getR(id,'rRT');badges=(o?'<span class="b rate">OT★'+o+'</span>':'')+(r?'<span class="b rate">RT★'+r+'</span>':'')+badges}else{const rr=getR(id,'rating');if(rr)badges='<span class="b rate">★'+rr+'</span>'+badges}
  let th='';if(!S.meta.hideCovers){const u=userCover(id),sc=u?null:preferredStock(id);th=u?`<img class="thumb" src="${u}" alt="">`:sc?`<img class="thumb pending" decoding="async" alt="" data-src="${olURL(sc.id,'M')}">`:'<div class="thumb none"></div>'}
  let sub=[];if(b.y)sub.push(b.m?b.m.slice(0,3)+' '+b.y:b.y);if(b.ry)sub.push('Rev. '+b.ry);if(UI.showSeries)sub.unshift(b.sname);
  return `<div class="row${own?' owned':''}" data-id="${id}"><div class="num">${esc(b.n)}</div>${th}<div class="rmain"><div class="rt">${esc(b.t)}</div><div class="rs">${esc(sub.join(' · '))}${badges?'<span class="badges">'+badges+'</span>':''}</div></div>
@@ -220,7 +235,7 @@ function bindRows(root,rerender){observeThumbs(root);root.querySelectorAll('[dat
  root.querySelectorAll('[data-star]').forEach(el=>el.onclick=e=>{e.stopPropagation();toggleWish(el.dataset.star);rerender()});
  root.querySelectorAll('.row[data-id]').forEach(el=>el.onclick=()=>location.hash='#/b/'+el.dataset.id)}
 
-async function addCopy(id,extra){const b=BOOK[id];const c={id:uid(),bookId:id,text:hasTexts(b)?'':'N/A',format:'',dj:false,first:false,listTo:'',endpapers:'',yspine:false,numCover:'',illus:'',djStyle:'',printing:'',cond:'',djCond:'',price:'',acquired:new Date().toISOString().slice(0,10),source:'',notes:'',photo:'',created:Date.now(),...extra};
+async function addCopy(id,extra){const b=BOOK[id];const c={id:uid(),bookId:id,text:hasTexts(b)?'':'N/A',format:'',dj:false,first:false,listTo:'',endpapers:'',spine:'',numCover:'',illus:'',djStyle:'',printing:'',cond:'',djCond:'',price:'',acquired:new Date().toISOString().slice(0,10),source:'',notes:'',photo:'',created:Date.now(),...extra};
  S.copies.push(c);let unwished=false;if(S.wish[id]&&!S.wish[id].keep){delete S.wish[id];unwished=true}await save();return {c,unwished}}
 async function quickOwn(id,rerender){const b=BOOK[id];const n=copiesOf(id).length;
  const go=async(extra)=>{const added=[];
@@ -250,12 +265,12 @@ function viewHome(){setHeader('Hardy Boys Collection');setTab('home');
 
 function viewSeries(key){const s=allSeries().find(x=>x.key===key);if(!s)return viewHome();setHeader(s.short,true);setTab('home');UI.showSeries=false;
  const f=UI.filter[key]||'all';const st=seriesStats(s);
- const fl=[['all','All'],['owned','Owned'],['missing','Missing'],['wanted','Wanted']];if(st.tx)fl.push(['needot','Need OT'],['needrt','Need RT'],['dupes','Duplicates']);else fl.push(['dupes','Duplicates']);fl.splice(4,0,['top','Top rated']);if(s.books.some(x=>copiesOf(key+'-'+x.n).some(c=>c.yspine)))fl.push(['ys','Yellow spine']);if(key==='gd')fl.push(['benson','By Mildred Wirt Benson'],['newstory','New story when revised']);if(s.books.some(x=>dual(BOOK[key+'-'+x.n])))fl.splice(5,0,['topot','Top rated: Original'],['toprt','Top rated: Revised']);
+ const fl=[['all','All'],['owned','Owned'],['missing','Missing'],['wanted','Wanted']];if(st.tx)fl.push(['needot','Need OT'],['needrt','Need RT'],['dupes','Duplicates']);else fl.push(['dupes','Duplicates']);fl.splice(4,0,['top','Top rated']);{const used=new Set();for(const x of s.books)for(const c of copiesOf(key+'-'+x.n))if(c.spine)used.add(c.spine);for(const[v]of SPINES)if(used.has(v))fl.push(['sp:'+v,v+' spine'])}if(key==='gd')fl.push(['benson','By Mildred Wirt Benson'],['newstory','New story when revised']);if(s.books.some(x=>dual(BOOK[key+'-'+x.n])))fl.splice(5,0,['topot','Top rated: Original'],['toprt','Top rated: Revised']);
  let h=`<div class="card"><div class="serif" style="font-weight:700;color:var(--navy)">${esc(s.name)}</div><div class="small muted">${esc(s.publisher)}</div>${s.note?`<div class="small" style="margin-top:6px">${esc(s.note)}</div>`:''}
  <div class="bar"><i style="width:${pct(st.own,st.total)}%"></i></div><div class="stat"><span>${st.own} / ${st.total} owned · ${st.total-st.own} missing</span><span>${pct(st.own,st.total)}%</span></div>
  ${st.tx?`<div class="stat"><span>Original text ${st.ot}/${st.tx} · Revised text ${st.rt}/${st.tx}</span></div>`:''}</div>
  <div class="chips">${fl.map(([k,l])=>`<button class="chip${f===k?' on':''}" data-f="${k}">${l}</button>`).join('')}</div>`;
- const books=s.books.map(b=>BOOK[key+'-'+b.n]).filter(b=>{const id=b.id;switch(f){case'owned':return ownedOf(id);case'missing':return!ownedOf(id);case'wanted':return!!S.wish[id];case'needot':return hasTexts(b)&&!textOwned(id,'Original');case'needrt':return hasTexts(b)&&!textOwned(id,'Revised');case'dupes':return copiesOf(id).length>1;case'top':return ratingOf(id)>0;case'topot':return getR(id,'rOT')>0;case'toprt':return getR(id,'rRT')>0;case'ys':return copiesOf(id).some(c=>c.yspine);case'benson':return /Mildred Wirt/.test(b.gw||'');case'newstory':return!!b.ns;default:return true}});
+ const books=s.books.map(b=>BOOK[key+'-'+b.n]).filter(b=>{const id=b.id;switch(f){case'owned':return ownedOf(id);case'missing':return!ownedOf(id);case'wanted':return!!S.wish[id];case'needot':return hasTexts(b)&&!textOwned(id,'Original');case'needrt':return hasTexts(b)&&!textOwned(id,'Revised');case'dupes':return copiesOf(id).length>1;case'top':return ratingOf(id)>0;case'topot':return getR(id,'rOT')>0;case'toprt':return getR(id,'rRT')>0;case'benson':return /Mildred Wirt/.test(b.gw||'');case'newstory':return!!b.ns;default:if(f.startsWith('sp:'))return copiesOf(id).some(c=>c.spine===f.slice(3));return true}});
  if(f==='top')books.sort((a,c)=>ratingOf(c.id)-ratingOf(a.id)||a.n-c.n);
  if(f==='topot'||f==='toprt'){const k=f==='topot'?'rOT':'rRT';books.sort((a,c)=>getR(c.id,k)-getR(a.id,k)||a.n-c.n)}
  if(!books.length)h+='<div class="empty">Nothing here with this filter.</div>';
@@ -279,7 +294,7 @@ function viewBook(id){const b=BOOK[id];if(!b)return viewHome();setHeader('#'+b.n
  ${w?`<label class="f">What you’re looking for</label><input type="text" id="wishNote" placeholder="e.g., OT with Tandy DJ, orange silhouette ends, VG+" value="${esc(w.note||'')}"><label class="small" style="display:flex;gap:6px;align-items:center;margin-top:8px"><input type="checkbox" id="wishKeep" ${w.keep?'checked':''}> Keep on wishlist after I add a copy (upgrade hunting)</label>`:''}</div>
  <div class="serieshead">Your copies (${cs.length})</div>`;
  if(!cs.length)h+='<div class="card empty" style="padding:18px">You don’t have this one yet.</div>';
- for(const c of cs){const bits=[c.text&&c.text!=='N/A'?c.text+' text':'',c.format,c.dj?'with DJ'+(c.djCond?' ('+c.djCond+')':''):'',c.cond,c.illus&&c.illus!=='Unknown'?c.illus+' art':'',c.yspine?'yellow spine':'',c.numCover==='Yes'?'number on cover':c.numCover==='No'?'no number on cover':'',c.first?'1st printing':'',c.listTo?'lists to #'+c.listTo:''].filter(Boolean);
+ for(const c of cs){const bits=[c.text&&c.text!=='N/A'?c.text+' text':'',c.format,c.dj?'with DJ'+(c.djCond?' ('+c.djCond+')':''):'',c.cond,c.illus&&c.illus!=='Unknown'?c.illus+' art':'',c.spine&&c.spine!=='Unknown'?c.spine.toLowerCase()+' spine':'',c.numCover==='Yes'?'number on cover':c.numCover==='No'?'no number on cover':'',c.first?'1st printing':'',c.listTo?'lists to #'+c.listTo:''].filter(Boolean);
   h+=`<div class="card copy" data-copy="${c.id}" style="cursor:pointer">${c.photo?`<img src="${c.photo}" alt="">`:'<div class="ph">📖</div>'}<div style="flex:1;min-width:0"><div style="font-weight:600">${esc(bits.join(' · ')||'Copy (no details yet)')}</div>
   <div class="small muted">${[c.price?'$'+c.price:'',c.acquired?'Acquired '+c.acquired:'',c.source].filter(Boolean).map(esc).join(' · ')}</div>${c.printing?`<div class="small">${esc(c.printing)}</div>`:''}${c.notes?`<div class="small muted">${esc(c.notes)}</div>`:''}<div class="small" style="color:var(--navy2);margin-top:4px">Edit ›</div></div></div>`}
  h+=`<a class="btn block gold" href="#/c/${id}/new">+ Add a copy</a>`;
@@ -318,7 +333,7 @@ function bindCoverCard(b,rerender){const id=b.id;
  const cc=$('#coverFromCopy');if(cc)cc.onclick=()=>{const ps=copiesOf(id).filter(c=>c.photo);const bg=sheet('<h4>Use a copy photo as the cover</h4><div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:8px">'+ps.map(c=>`<img data-cp="${c.id}" src="${c.photo}" style="width:90px;height:130px;object-fit:cover;border-radius:6px;cursor:pointer;border:2px solid var(--line)">`).join('')+'</div><button class="btn ghost" data-cancel>Cancel</button>');
   bg.querySelector('[data-cancel]').onclick=()=>bg.remove();bg.querySelectorAll('[data-cp]').forEach(el=>el.onclick=async()=>{T(id).cover='copy:'+el.dataset.cp;await save();bg.remove();rerender();toast('Cover set from your copy photo')})}}
 
-function viewCopy(id,cid){const b=BOOK[id];if(!b)return viewHome();const isNew=cid==='new';const c=isNew?{text:'',format:'',dj:false,first:false,listTo:'',endpapers:'',yspine:false,numCover:'',illus:'',djStyle:'',printing:'',cond:'',djCond:'',price:'',acquired:new Date().toISOString().slice(0,10),source:'',notes:'',photo:''}:S.copies.find(x=>x.id===cid);
+function viewCopy(id,cid){const b=BOOK[id];if(!b)return viewHome();const isNew=cid==='new';const c=isNew?{text:'',format:'',dj:false,first:false,listTo:'',endpapers:'',spine:'',numCover:'',illus:'',djStyle:'',printing:'',cond:'',djCond:'',price:'',acquired:new Date().toISOString().slice(0,10),source:'',notes:'',photo:''}:S.copies.find(x=>x.id===cid);
  if(!c)return viewBook(id);setHeader((isNew?'Add copy · #':'Edit copy · #')+b.n,true);setTab('home');
  const opt=(arr,v)=>arr.map(o=>`<option${o===v?' selected':''}>${esc(o)}</option>`).join('');
  const fmtKnown=FORMATS.some(g=>g[1].includes(c.format));
@@ -327,7 +342,7 @@ function viewCopy(id,cid){const b=BOOK[id];if(!b)return viewHome();const isNew=c
  <label class="f">Format / binding</label><select id="format"><option value="">— choose —</option>${FORMATS.map(([g,a])=>`<optgroup label="${esc(g)}">${opt(a,c.format)}</optgroup>`).join('')}${c.format&&!fmtKnown?`<option selected>${esc(c.format)}</option>`:''}</select>
  <div class="two"><div><label class="f">Dust jacket</label><div class="seg" id="djSeg"><button type="button" data-v="1" class="${c.dj?'on':''}">Yes</button><button type="button" data-v="0" class="${c.dj?'':'on'}">No</button></div></div>
  <div><label class="f">First printing?</label><div class="seg" id="firstSeg"><button type="button" data-v="1" class="${c.first?'on':''}">Yes</button><button type="button" data-v="0" class="${c.first?'':'on'}">No/?</button></div></div></div>
- <div class="two"><div><label class="f">Yellow spine?</label><div class="seg" id="ysSeg"><button type="button" data-v="1" class="${c.yspine?'on':''}">🟨 Yes</button><button type="button" data-v="0" class="${c.yspine?'':'on'}">No</button></div></div>
+ <div class="two"><div style="grid-column:1/-1"><label class="f">Spine color</label><div class="spchips" id="spSeg">${SPINES.map(([v,col])=>`<button type="button" data-v="${v}" class="spc${(c.spine||'')===v?' on':''}"><i style="background:${col}"></i>${v}</button>`).join('')}</div></div>
  <div><label class="f">Number on cover?</label><div class="seg" id="ncSeg">${[['Yes','Yes'],['No','No'],['','?']].map(([v,l])=>`<button type="button" data-v="${v}" class="${(c.numCover||'')===v?'on':''}">${l}</button>`).join('')}</div></div></div>
  <div class="two"><div><label class="f">Condition (book)</label><select id="cond">${opt(CONDS,c.cond)}</select></div><div id="djCondWrap" ${c.dj?'':'hidden'}><label class="f">DJ condition</label><select id="djCond">${opt(CONDS,c.djCond)}</select></div></div>
  <div class="two"><div><label class="f">Lists to # (last title listed)</label><input type="number" inputmode="numeric" id="listTo" value="${esc(c.listTo)}" placeholder="e.g. 34"></div><div><label class="f">Endpapers</label><select id="endpapers">${ENDPAPERS.map(o=>`<option value="${esc(o)}"${o===c.endpapers?' selected':''}>${esc(o||'—')}</option>`).join('')}</select></div></div>
@@ -342,13 +357,13 @@ function viewCopy(id,cid){const b=BOOK[id];if(!b)return viewHome();const isNew=c
  <button class="btn block gold" id="saveBtn">${isNew?'Add to collection':'Save changes'}</button>
  ${isNew?'':'<button class="btn block red" id="delBtn">Delete this copy</button>'}</div>`;
  $('#app').innerHTML=h;window.scrollTo(0,0);
- const st={text:c.text,dj:!!c.dj,first:!!c.first,photo:c.photo,yspine:!!c.yspine,numCover:c.numCover||''};
+ const st={text:c.text,dj:!!c.dj,first:!!c.first,photo:c.photo,spine:c.spine||'',numCover:c.numCover||''};
  const segBind=(sel,fn)=>{const r=$(sel);if(!r)return;r.querySelectorAll('button').forEach(bt=>bt.onclick=()=>{r.querySelectorAll('button').forEach(x=>x.classList.remove('on'));bt.classList.add('on');fn(bt)})};
- segBind('#textSeg',bt=>st.text=bt.dataset.t);segBind('#djSeg',bt=>{st.dj=bt.dataset.v==='1';$('#djCondWrap').hidden=!st.dj;$('#djStyleWrap').hidden=!st.dj});segBind('#firstSeg',bt=>st.first=bt.dataset.v==='1');segBind('#ysSeg',bt=>{st.yspine=bt.dataset.v==='1';if(st.yspine&&YS_FORMAT&&!$('#format').value)$('#format').value=YS_FORMAT});segBind('#ncSeg',bt=>st.numCover=bt.dataset.v);
- $('#format').addEventListener('change',()=>{if(/yellow spine|YSPC|flashlight/i.test($('#format').value)&&!st.yspine)$('#ysSeg [data-v="1"]').click()});
+ segBind('#textSeg',bt=>st.text=bt.dataset.t);segBind('#djSeg',bt=>{st.dj=bt.dataset.v==='1';$('#djCondWrap').hidden=!st.dj;$('#djStyleWrap').hidden=!st.dj});segBind('#firstSeg',bt=>st.first=bt.dataset.v==='1');$('#spSeg').querySelectorAll('button').forEach(bt=>bt.onclick=()=>{const was=bt.classList.contains('on');$('#spSeg').querySelectorAll('button').forEach(x=>x.classList.remove('on'));st.spine=was?'':bt.dataset.v;if(!was)bt.classList.add('on');if(st.spine==='Yellow'&&YS_FORMAT&&!$('#format').value)$('#format').value=YS_FORMAT});segBind('#ncSeg',bt=>st.numCover=bt.dataset.v);
+ $('#format').addEventListener('change',()=>{if(YS_FORMAT&&/yellow spine|YSPC|flashlight/i.test($('#format').value)&&!st.spine)$('#spSeg [data-v="Yellow"]').click()});
  $('#photo').onchange=async e=>{const f=e.target.files[0];if(!f)return;try{st.photo=await resizeImage(f,900,.8);$('#photoBox').innerHTML=`<img class="photoPrev" src="${st.photo}">`}catch(err){toast('Could not read that photo')}};
  const rp=$('#rmPhoto');if(rp)rp.onclick=()=>{st.photo='';$('#photoBox').innerHTML=''};
- $('#saveBtn').onclick=async()=>{const v=k=>$('#'+k).value.trim();const data={text:hasTexts(b)?st.text:'N/A',format:v('format'),dj:st.dj,first:st.first,yspine:st.yspine,numCover:st.numCover,cond:v('cond'),djCond:st.dj?v('djCond'):'',listTo:v('listTo'),endpapers:$('#endpapers').value,illus:$('#illus').value,djStyle:st.dj?$('#djStyle').value:'',printing:v('printing'),price:v('price'),acquired:v('acquired'),source:v('source'),notes:v('notes'),photo:st.photo,updated:Date.now()};
+ $('#saveBtn').onclick=async()=>{const v=k=>$('#'+k).value.trim();const data={text:hasTexts(b)?st.text:'N/A',format:v('format'),dj:st.dj,first:st.first,spine:st.spine,numCover:st.numCover,cond:v('cond'),djCond:st.dj?v('djCond'):'',listTo:v('listTo'),endpapers:$('#endpapers').value,illus:$('#illus').value,djStyle:st.dj?$('#djStyle').value:'',printing:v('printing'),price:v('price'),acquired:v('acquired'),source:v('source'),notes:v('notes'),photo:st.photo,updated:Date.now()};
   try{if(isNew){const r=await addCopy(id,data);toast('Copy added'+(r.unwished?' · removed from wishlist':''))}else{Object.assign(c,data);await save();toast('Saved')}history.back()}catch(err){toast('Save failed: storage may be full ('+err.message+')')}};
  const db=$('#delBtn');if(db)db.onclick=async()=>{if(!confirm('Delete this copy?'))return;const keep=c;S.copies=S.copies.filter(x=>x.id!==c.id);await save();history.back();setTimeout(()=>toast('Copy deleted','Undo',async()=>{S.copies.push(keep);await save();route()}),50)}}
 
@@ -443,8 +458,8 @@ function download(name,text,type){const blob=new Blob([text],{type});const f=new
 const stamp=()=>new Date().toISOString().slice(0,10);
 function exportJSON(withPhotos){const data={app:'nancydrew-catalog',series:'nancydrew',version:1,exported:new Date().toISOString(),copies:withPhotos?S.copies:S.copies.map(c=>({...c,photo:''})),wish:S.wish,custom:S.custom,rank:S.rank,titles:withPhotos?S.titles:Object.fromEntries(Object.entries(S.titles).map(([k,v])=>[k,{...v,cover:v.cover&&v.cover.startsWith('copy:')?v.cover:undefined}]))};download(`nancy-drew-backup-${stamp()}${withPhotos?'':'-nophotos'}.json`,JSON.stringify(data),'application/json');S.meta.lastBackup=Date.now();save()}
 const csvCell=v=>{v=String(v??'');return /[",\n]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v};
-function exportCopiesCSV(){const head=['Series','No.','Title','First pub.','Revised text year','Text','Format','Dust jacket','DJ condition','Condition','Yellow spine','Number on cover','First printing','Lists to','Endpapers','Cover/DJ artist','DJ spine style','Printing notes','Price','Date acquired','Acquired from','Notes','Has photo','My rating','My rating (Original text)','My rating (Revised text)'];
- const rows=S.copies.map(c=>{const b=BOOK[c.bookId]||{};return[b.sname,b.n,b.t,b.y,b.ry,c.text,c.format,c.dj?'Yes':'No',c.djCond,c.cond,c.yspine?'Yes':'',c.numCover||'',c.first?'Yes':'',c.listTo,c.endpapers,c.illus||'',c.djStyle||'',c.printing,c.price,c.acquired,c.source,c.notes,c.photo?'Yes':'',getR(c.bookId,'rating')||'',getR(c.bookId,'rOT')||'',getR(c.bookId,'rRT')||'']});
+function exportCopiesCSV(){const head=['Series','No.','Title','First pub.','Revised text year','Text','Format','Dust jacket','DJ condition','Condition','Spine color','Number on cover','First printing','Lists to','Endpapers','Cover/DJ artist','DJ spine style','Printing notes','Price','Date acquired','Acquired from','Notes','Has photo','My rating','My rating (Original text)','My rating (Revised text)'];
+ const rows=S.copies.map(c=>{const b=BOOK[c.bookId]||{};return[b.sname,b.n,b.t,b.y,b.ry,c.text,c.format,c.dj?'Yes':'No',c.djCond,c.cond,c.spine||'',c.numCover||'',c.first?'Yes':'',c.listTo,c.endpapers,c.illus||'',c.djStyle||'',c.printing,c.price,c.acquired,c.source,c.notes,c.photo?'Yes':'',getR(c.bookId,'rating')||'',getR(c.bookId,'rOT')||'',getR(c.bookId,'rRT')||'']});
  rows.sort((a,b)=>String(a[0]).localeCompare(String(b[0]))||a[1]-b[1]);download(`nancy-drew-copies-${stamp()}.csv`,'\ufeff'+[head,...rows].map(r=>r.map(csvCell).join(',')).join('\r\n'),'text/csv')}
 function exportChecklistCSV(){const head=['Series','No.','Title','First pub.','Revised text year','Ghostwriter','Revised by','New story when revised','Copies owned','Own OT','Own RT','Wanted','Want note','My rating','My rating (Original text)','My rating (Revised text)','My cover','Open Library edition'];const rows=[];
  for(const s of allSeries())for(const b of s.books){const id=s.key+'-'+b.n;rows.push([s.short,b.n,b.t,b.m?b.m+' '+b.y:b.y,b.ry,b.gw||'',b.rb||'',b.ns?'Yes':'',copiesOf(id).length,b.ry!=null?(textOwned(id,'Original')?'Yes':''):'',b.ry!=null?(textOwned(id,'Revised')?'Yes':''):'',S.wish[id]?'Yes':'',S.wish[id]?.note||'',getR(id,'rating')||'',getR(id,'rOT')||'',getR(id,'rRT')||'',userCover(id)?'Yes':'',(stockCovers(id)[0]||{}).ed?'https://openlibrary.org/books/'+stockCovers(id)[0].ed:''])}
@@ -452,7 +467,7 @@ function exportChecklistCSV(){const head=['Series','No.','Title','First pub.','R
 async function importJSON(file,mode){const txt=await file.text();let d;try{d=JSON.parse(txt)}catch(e){toast('That file isn’t valid JSON');return}
  if(d.app==='hardyboys-catalog'){toast('That’s a Hardy Boys backup. Restore it in the Hardy Boys app.');return}
  if(d.app!=='nancydrew-catalog'||!Array.isArray(d.copies)){toast('Not a Nancy Drew catalog backup');return}
- migrateTitles(d.titles);if(mode==='replace'){S.copies=d.copies;S.wish=d.wish||{};S.custom=d.custom||[];S.titles=d.titles||{};S.rank=d.rank||{}}
+ migrateTitles(d.titles);migrateCopies(d.copies);if(mode==='replace'){S.copies=d.copies;S.wish=d.wish||{};S.custom=d.custom||[];S.titles=d.titles||{};S.rank=d.rank||{}}
  else{const have=new Set(S.copies.map(c=>c.id));let n=0;for(const c of d.copies)if(!have.has(c.id)){S.copies.push(c);n++}Object.assign(S.wish,d.wish||{});for(const[k,v]of Object.entries(d.titles||{}))S.titles[k]={...(S.titles[k]||{}),...v};for(const[bs,g]of Object.entries(d.rank||{}))S.rank[bs]={...(S.rank[bs]||{}),...g};const ch=new Set(S.custom.map(c=>c.n));for(const c of d.custom||[])if(!ch.has(c.n))S.custom.push(c)}
  indexBooks();pruneRank();await save();toast(`Imported: ${S.copies.length} copies now in catalog`);route()}
 
@@ -495,7 +510,7 @@ function route(){const h=location.hash.replace(/^#\/?/,'');const p=h.split('/');
  else if(p[0]==='search')viewSearch();else if(p[0]==='wish')viewWish();else if(p[0]==='ratings')viewRatings();else if(p[0]==='more')viewMore();else if(p[0]==='addcustom')viewAddCustom();else viewHome()}
 let READY=false;window.addEventListener('hashchange',()=>{if(READY)route()});
 window.addEventListener('scroll',()=>{if(!location.hash||location.hash==='#/')UI.homeScroll=window.scrollY},{passive:true});
-(async()=>{await load();indexBooks();if(migrateTitles(S.titles))await save();READY=true;route();
+(async()=>{await load();indexBooks();if(migrateTitles(S.titles)|migrateCopies(S.copies))await save();READY=true;route();
  if('serviceWorker' in navigator&&location.protocol!=='file:')navigator.serviceWorker.register('sw.js').catch(()=>{})})();
 </script>
 </body>

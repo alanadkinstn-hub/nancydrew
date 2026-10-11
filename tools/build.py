@@ -4,12 +4,12 @@ data = json.loads((root/'tools/data.json').read_text())
 src = (root/'tools/index.src.html').read_text()
 djs = json.dumps(data, ensure_ascii=False, separators=(',',':')).replace('</', '<\\/')
 covers = json.loads((root/'tools/covers.json').read_text()) if (root/'tools/covers.json').exists() else {}
-ver = '1.1-' + hashlib.sha1((src+djs+json.dumps(covers)).encode()).hexdigest()[:8]
+ver = '1.2-' + hashlib.sha1((src+djs+json.dumps(covers)).encode()).hexdigest()[:8]
 html = src.replace('/*COVERS*/', json.dumps(covers, separators=(',',':'))).replace('/*DATA*/', djs).replace('/*VERSION*/', ver)
 (root/'index.html').write_text(html)
 (root/'manifest.webmanifest').write_text(json.dumps({
  "name":"Nancy Drew Collection","short_name":"Drew Shelf","description":"Catalog your Nancy Drew book collection: originals, revised texts, digests, Files and more.",
- "start_url":"./","scope":"./","display":"standalone","orientation":"portrait","background_color":"#f7f1e1","theme_color":"#1b2f5e",
+ "start_url":"./","scope":"./","display":"standalone","orientation":"portrait","background_color":"#f7f1e1","theme_color":"#eee056",
  "icons":[{"src":"icon-192.png","sizes":"192x192","type":"image/png"},{"src":"icon-512.png","sizes":"512x512","type":"image/png"},{"src":"icon-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}]}, indent=1))
 (root/'sw.js').write_text(f"""// Nancy Drew Collection service worker (offline app shell)
 const CACHE='nd-{ver}';
