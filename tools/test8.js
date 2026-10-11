@@ -5,7 +5,7 @@ const U='http://localhost:8766/';const ok=(c,m)=>{if(!c){console.log('FAIL:',m);
 for(const vp of [{width:390,height:844},{width:375,height:667},{width:430,height:932}]){const t=`[${vp.width}]`;
 const ctx=await b.newContext({viewport:vp,isMobile:true,hasTouch:true,acceptDownloads:true});const p=await ctx.newPage();const errs=[];p.on('pageerror',e=>errs.push(e.message));p.on('dialog',d=>d.accept());
 await p.goto(U);await p.waitForSelector('.scard');
-ok((await p.title())==='Nancy Drew Collection',`${t} title`);
+ok((await p.title())==='Nancy Drew Collection'&&(await p.textContent('#title'))==='Nancy Drew Collection',`${t} title + header`);
 ok(await p.$eval('nav.tabs a[data-t="wish"]',e=>e.textContent.includes('📌')&&!e.textContent.includes('★')),`${t} wishlist tab uses pin`);
 ok(await p.evaluate(()=>SERIES[0].books.filter(b=>b.ry).length===34&&SERIES[0].books.length===56),`${t} 56 originals, 34 revised`);
 await p.goto(U+'#/s/gd');await p.waitForSelector('.chip[data-f="benson"]');await p.click('.chip[data-f="benson"]');await p.waitForTimeout(100);

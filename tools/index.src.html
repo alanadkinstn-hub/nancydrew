@@ -250,7 +250,7 @@ async function quickOwn(id,rerender){const b=BOOK[id];const n=copiesOf(id).lengt
 async function toggleWish(id){if(S.wish[id])delete S.wish[id];else S.wish[id]={added:Date.now(),note:''};await save()}
 
 // ---------- views ----------
-function viewHome(){setHeader('Hardy Boys Collection');setTab('home');
+function viewHome(){setHeader('Nancy Drew Collection');setTab('home');
  const ser=allSeries();let titles=0,owned=0;for(const s of ser){const st=seriesStats(s);titles+=st.total;owned+=st.own}
  const spent=S.copies.reduce((a,c)=>a+(parseFloat(c.price)||0),0);
  let h=`<div class="hero"><div class="serif" style="font-size:15px;opacity:.9">River Heights · Mystery Files</div><div class="row" style="margin-top:6px">
