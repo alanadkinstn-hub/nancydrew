@@ -1,5 +1,5 @@
 // Nancy Drew Collection service worker (offline app shell)
-const CACHE='nd-1.0-0bd9a9d6';
+const CACHE='nd-1.0-f818ae2e';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png','./apple-touch-icon.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()))});
 const COVER_CACHE='nd-covers-v1'; // kept across app versions: stock covers you've viewed stay available offline
