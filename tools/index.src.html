@@ -380,7 +380,7 @@ function viewSearch(){setHeader('Search');setTab('search');UI.showSeries=true;
  q.oninput=run;$('#app').querySelectorAll('[data-sf]').forEach(el=>el.onclick=()=>{UI.sf=el.dataset.sf;viewSearch()});run();if(!UI.q)setTimeout(()=>q.focus(),50)}
 
 // ---------- My Ratings ----------
-function ratingScore(id,basis){const b=BOOK[id];if(basis==='ot')return dual(b)?getR(id,'rOT'):0;if(basis==='rt')return dual(b)?getR(id,'rRT'):0;return ratingOf(id)}
+function ratingScore(id,basis){const b=BOOK[id];if(basis==='ot')return dual(b)?getR(id,'rOT'):0;if(basis==='rt')return dual(b)?getR(id,'rRT'):(b&&b.sk==='gd'?getR(id,'rating'):0);return ratingOf(id)}
 // Custom order within a score group: S.rank[basis][score] = [bookId,...]. Unlisted books sort to the bottom (default order).
 function pruneRank(){let ch=false;for(const basis of Object.keys(S.rank)){const g=S.rank[basis];for(const sc of Object.keys(g)){const keep=g[sc].filter((id,i,a)=>BOOK[id]&&ratingScore(id,basis)===+sc&&a.indexOf(id)===i);if(keep.length!==g[sc].length){ch=true;if(keep.length)g[sc]=keep;else delete g[sc]}}if(!Object.keys(g).length){delete S.rank[basis];ch=true;continue}
   // books that newly joined a custom-ordered group are appended to its bottom, in the order they arrived
@@ -398,10 +398,10 @@ function viewRatings(){setHeader('My Ratings');setTab('ratings');UI.showSeries=t
  if(pruneRank())save();
  const basis=UI.rBasis||'best',sf=UI.rSeries||'all',edit=!!UI.rEdit;const ser=allSeries();
  const items=rankedItems(basis,sf);const anyRated=Object.keys(BOOK).some(id=>ratingOf(id)>0);
- let h=`<div class="chips" id="basisChips">${[['best','Best of either'],['ot','Original text'],['rt','Revised text']].map(([k,l])=>`<button class="chip${basis===k?' on':''}" data-basis="${k}">${l}</button>`).join('')}</div>
+ let h=`<div class="chips" id="basisChips">${[['best','Best of either'],['ot','Original (#1–34)'],['rt','Revised (#1–56)']].map(([k,l])=>`<button class="chip${basis===k?' on':''}" data-basis="${k}">${l}</button>`).join('')}</div>
  <div style="display:flex;gap:8px;margin-bottom:10px"><select id="rSeries" aria-label="Series filter" style="flex:1"><option value="all">All series</option>${ser.map(s=>`<option value="${s.key}"${sf===s.key?' selected':''}>${esc(s.short)}</option>`).join('')}</select>
  ${items.length?`<button class="btn ${edit?'gold':'ghost'}" id="editOrder" style="white-space:nowrap">${edit?'✓ Done':'↕ Edit order'}</button>`:''}</div>
- ${basis!=='best'?(()=>{const hid=Object.values(BOOK).filter(b=>!dual(b)&&ratingOf(b.id)>0&&(sf==='all'||b.sk===sf)).length;return `<div class="banner" id="basisNote">Original/Revised ratings apply only to #1–34 of the original series.${hid?` <b>${hid} other rated book${hid===1?' is':'s are'} hidden</b> — <a href="#" id="toBest">show Best of either</a>.`:''}</div>`})():''}
+ ${basis!=='best'?(()=>{const hid=Object.values(BOOK).filter(b=>ratingOf(b.id)>0&&!ratingScore(b.id,basis)&&(sf==='all'||b.sk===sf)).length;return `<div class="banner" id="basisNote">${basis==='ot'?'The Original-text bracket covers #1–34 of the original series (their Original-text ratings).':'The Revised bracket covers #1–56 of the original series: Revised-text ratings for #1–34, plus the single rating of #35–56, which were never rewritten.'}${hid?` <b>${hid} other rated book${hid===1?' is':'s are'} hidden</b> — <a href="#" id="toBest">show Best of either</a>.`:''}</div>`})():''}
  ${edit?'<div class="banner" id="editHelp">Drag ≡ or use ▲ ▼ to reorder books <b>within the same score</b>. Your order is saved for this sort basis.</div>':''}`;
  if(!anyRated)h+=`<div class="card empty" id="ratingsEmpty"><div style="font-size:34px">🏆</div><b>No ratings yet</b><br>Open any book and tap a number from 1 to 10 under <b>Your rating</b>. On #1–34 of the original series you can rate the Original text and the Revised text separately.<br><br>Your rated books will be ranked here, best first.<br><a class="btn gold" href="#/s/gd" style="margin-top:12px">Browse the original series</a></div>`;
  else if(!items.length)h+='<div class="empty" id="ratingsEmpty">No rated books match this filter.</div>';

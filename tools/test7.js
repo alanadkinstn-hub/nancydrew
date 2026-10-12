@@ -11,9 +11,9 @@ for(const id of ['gd-55','gd-45','gd-3','gd-12','files-5','digest-70'])ok(best.i
 ok(best[best.length-1]==='gd-55'||best.slice(-3).includes('gd-55'),`${t} rating-1 books at the bottom`);
 ok(await p.$eval('.sub-h[data-score="1"]',e=>e.textContent.includes('3 books')),`${t} ★1 group lists gd-55, gd-12, files-5`);
 let ot=await ids('ot');ok(ot.join()==='gd-3',`${t} OT basis: gd-3 (OT 1) shown`);
-ok(await p.$eval('#basisNote',e=>e.textContent.includes('4 other rated books are hidden')),`${t} OT basis explains hidden single-rated books`);
+ok(await p.$eval('#basisNote',e=>e.textContent.includes('5 other rated books are hidden')),`${t} OT basis explains hidden single-rated books`);
 await p.click('#toBest');await p.waitForTimeout(150);ok(await p.$eval('[data-basis="best"]',e=>e.classList.contains('on')),`${t} link switches to Best`);
-let rt=await ids('rt');ok(rt.join()==='gd-3,gd-12',`${t} RT basis: 10 then 1`);
+let rt=await ids('rt');ok(rt.join()==='gd-3,gd-45,gd-12,gd-55',`${t} Revised bracket #1-56: RT ratings + single ratings of 35-56`);
 await p.goto(U+'#/s/gd');await p.waitForSelector('.row[data-id="gd-55"]');
 ok(await p.$eval('.row[data-id="gd-55"] .badge, .row[data-id="gd-55"]',e=>e.textContent.includes('★1')),`${t} list badge ★1 on #55`);
 ok(await p.$eval('[data-star="gd-55"]',e=>e.textContent==='📌'&&!e.textContent.includes('★')),`${t} wishlist button uses 📌, not a star`);
