@@ -76,6 +76,8 @@ nav.tabs a.on{color:var(--gold2)}
 .b{font:700 10.5px/1 sans-serif;padding:3px 5px;border-radius:4px;background:#e9e2cc;color:#555}
 .b.ot{background:#7a2e1f;color:#fff}.b.rt{background:#1f4e7a;color:#fff}.b.dj{background:var(--gold);color:var(--navy)}.b.sp{display:inline-flex;align-items:center;gap:3px;background:#fff;color:#444;border:1px solid #d8cda9}.b.sp i,.spc i{display:inline-block;width:8px;height:11px;border-radius:2px;border:1px solid rgba(0,0,0,.35)}.spchips{display:flex;flex-wrap:wrap;gap:6px}.spc{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--navy2);background:#fff;color:var(--navy2);border-radius:16px;padding:7px 11px;font:600 14px inherit;font-family:inherit;cursor:pointer;min-height:36px}.spc i{width:10px;height:15px}.spc.on{background:var(--navy2);color:#fff;box-shadow:inset 0 0 0 2px var(--gold)}.b.w{background:#fff3c4;color:#7a5a00;border:1px solid var(--gold)}
 .own{width:44px;height:44px;border-radius:50%;border:2px solid var(--navy2);background:#fff;color:var(--navy2);font-size:20px;cursor:pointer;flex:none;display:grid;place-items:center;font-weight:700}
+.minus{width:32px;height:32px;border-radius:50%;border:2px solid #b5452f;background:#fff;color:#b5452f;font-size:20px;line-height:1;cursor:pointer;flex:none;display:grid;place-items:center;font-weight:700;margin-right:4px;padding:0}
+.copydel{background:none;border:1px solid #b5452f;color:#b5452f;border-radius:8px;font-size:13px;padding:4px 10px;cursor:pointer;flex:none;align-self:center}
 .own.on{background:var(--ok);border-color:var(--ok);color:#fff;font-size:15px}
 .star{background:none;border:0;font-size:22px;color:#c9c0a5;cursor:pointer;padding:4px;flex:none}
 .star.on{color:var(--gold)}
@@ -220,7 +222,7 @@ function rowHTML(b){const id=b.id,cs=copiesOf(id),own=cs.length>0,w=!!S.wish[id]
  let th='';if(!S.meta.hideCovers){const u=userCover(id),sc=u?null:preferredStock(id);th=u?`<img class="thumb" src="${u}" alt="">`:sc?`<img class="thumb pending" decoding="async" alt="" data-src="${olURL(sc.id,'M')}">`:'<div class="thumb none"></div>'}
  let sub=[];if(b.y)sub.push(b.m?b.m.slice(0,3)+' '+b.y:b.y);if(b.ry)sub.push('Rev. '+b.ry);if(UI.showSeries)sub.unshift(b.sname);
  return `<div class="row${own?' owned':''}" data-id="${id}"><div class="num">${esc(b.n)}</div>${th}<div class="rmain"><div class="rt">${esc(b.t)}</div><div class="rs">${esc(sub.join(' · '))}${badges?'<span class="badges">'+badges+'</span>':''}</div></div>
- <button class="star${w?' on':''}" data-star="${id}" aria-label="${w?'On wishlist (tap to remove)':'Add to wishlist'}" title="Wishlist">📌</button><button class="own${own?' on':''}" data-own="${id}" aria-label="Own it">${own?(cs.length>1?'×'+cs.length:'✓'):'+'}</button></div>`}
+ <button class="star${w?' on':''}" data-star="${id}" aria-label="${w?'On wishlist (tap to remove)':'Add to wishlist'}" title="Wishlist">📌</button>${cs.length?`<button class="minus" data-unown="${id}" aria-label="Remove a copy (${cs.length} now)" title="Remove most recent copy">−</button>`:''}<button class="own${own?' on':''}" data-own="${id}" aria-label="Own it">${own?(cs.length>1?'×'+cs.length:'✓'):'+'}</button></div>`}
 // Polite cover loading: only rows near the screen, max 2 at a time, retry with backoff (archive.org can return 503 under bursts).
 const thumbQ=[];let thumbActive=0;
 const thumbIO='IntersectionObserver' in window?new IntersectionObserver(es=>{for(const e of es)if(e.isIntersecting){thumbIO.unobserve(e.target);thumbQ.push(e.target);pumpThumbs()}},{rootMargin:'300px 0px'}):null;
@@ -231,12 +233,20 @@ function loadThumb(img,tries){const done=()=>{thumbActive--;pumpThumbs()};
  img.src=img.dataset.src}
 function observeThumbs(root){root.querySelectorAll('img.thumb[data-src]:not([src])').forEach(i=>thumbIO?thumbIO.observe(i):(i.src=i.dataset.src))}
 function coverRetry(img){const n=+(img.dataset.tries||0);if(n<2){img.dataset.tries=n+1;const u=img.src;setTimeout(()=>{if(img.isConnected){img.removeAttribute('src');img.src=u}},2000*(n+1))}else img.outerHTML='<div class="nocover">Cover unavailable right now (offline?)</div>'}
-function bindRows(root,rerender){observeThumbs(root);root.querySelectorAll('[data-own]').forEach(el=>el.onclick=e=>{e.stopPropagation();quickOwn(el.dataset.own,rerender)});
+function bindRows(root,rerender){observeThumbs(root);root.querySelectorAll('[data-own]').forEach(el=>el.onclick=e=>{e.stopPropagation();if(tapBusy('own:'+el.dataset.own))return;quickOwn(el.dataset.own,rerender)});
+ root.querySelectorAll('[data-unown]').forEach(el=>el.onclick=e=>{e.stopPropagation();if(tapBusy('unown:'+el.dataset.unown))return;removeLatestCopy(el.dataset.unown,rerender)});
  root.querySelectorAll('[data-star]').forEach(el=>el.onclick=e=>{e.stopPropagation();toggleWish(el.dataset.star);rerender()});
  root.querySelectorAll('.row[data-id]').forEach(el=>el.onclick=()=>{UI.bookCtx={id:el.dataset.id,ctx:UI.coverCtx||''};location.hash='#/b/'+el.dataset.id})}
 
 async function addCopy(id,extra){const b=BOOK[id];const c={id:uid(),bookId:id,text:hasTexts(b)?'':'N/A',format:'',dj:false,first:false,listTo:'',endpapers:'',spine:'',numCover:'',illus:'',djStyle:'',printing:'',pcode:'',cond:'',djCond:'',price:'',acquired:new Date().toISOString().slice(0,10),source:'',notes:'',photo:'',created:Date.now(),...extra};
  S.copies.push(c);let unwished=false;if(S.wish[id]&&!S.wish[id].keep){delete S.wish[id];unwished=true}await save();return {c,unwished}}
+const TAPS={};function tapBusy(k,ms=700){const now=Date.now();if(TAPS[k]&&now-TAPS[k]<ms)return true;TAPS[k]=now;return false}
+const COPY_BLANK={format:'',dj:false,first:false,listTo:'',endpapers:'',illus:'',djStyle:'',spine:'',numCover:'',printing:'',pcode:'',cond:'',djCond:'',price:'',source:'',notes:'',photo:''};
+function copyHasData(c){if(c.updated)return true;for(const[k,v]of Object.entries(COPY_BLANK))if((c[k]||v)!==v&&c[k]!==undefined&&c[k]!==null&&c[k]!==v)return true;return false}
+function copyDesc(c){const b=BOOK[c.bookId]||{};return`#${b.n} ${b.t||''}`+(c.text&&c.text!=='N/A'?` (${c.text} text)`:'')}
+async function deleteCopy(c,rerender,why){if(copyHasData(c)&&!confirm(`${why||'Delete this copy'} of ${copyDesc(c)}? It has details you entered (condition, notes, photo, etc.).`))return false;
+ const i=S.copies.indexOf(c);S.copies=S.copies.filter(x=>x!==c);await save();rerender();toast(`Removed a copy of #${(BOOK[c.bookId]||{}).n}`,'Undo',async()=>{S.copies.splice(Math.min(i,S.copies.length),0,c);await save();rerender()});return true}
+async function removeLatestCopy(id,rerender){const cs=copiesOf(id);if(!cs.length)return;const c=cs.reduce((a,x)=>(x.created||0)>=(a.created||0)?x:a);return deleteCopy(c,rerender,'Remove the most recent copy')}
 async function quickOwn(id,rerender){const b=BOOK[id];const n=copiesOf(id).length;
  const go=async(extra)=>{const added=[];
   if(extra.text==='Both'){added.push((await addCopy(id,{text:'Original'})).c,(await addCopy(id,{text:'Revised'})).c)}else added.push((await addCopy(id,extra)).c);
@@ -296,7 +306,7 @@ function viewBook(id){const b=BOOK[id];if(!b)return viewHome();setHeader('#'+b.n
  if(!cs.length)h+='<div class="card empty" style="padding:18px">You don’t have this one yet.</div>';
  for(const c of cs){const bits=[c.text&&c.text!=='N/A'?c.text+' text':'',c.format,c.dj?'with DJ'+(c.djCond?' ('+c.djCond+')':''):'',c.cond,c.illus&&c.illus!=='Unknown'?c.illus+' art':'',c.spine&&c.spine!=='Unknown'?c.spine.toLowerCase()+' spine':'',c.numCover==='Yes'?'number on cover':c.numCover==='No'?'no number on cover':'',c.first?'1st printing':'',c.pcode?'printing code '+c.pcode:'',c.listTo?'lists to #'+c.listTo:''].filter(Boolean);
   h+=`<div class="card copy" data-copy="${c.id}" style="cursor:pointer">${c.photo?`<img src="${c.photo}" alt="">`:'<div class="ph">📖</div>'}<div style="flex:1;min-width:0"><div style="font-weight:600">${esc(bits.join(' · ')||'Copy (no details yet)')}</div>
-  <div class="small muted">${[c.price?'$'+c.price:'',c.acquired?'Acquired '+c.acquired:'',c.source].filter(Boolean).map(esc).join(' · ')}</div>${c.printing?`<div class="small">${esc(c.printing)}</div>`:''}${c.notes?`<div class="small muted">${esc(c.notes)}</div>`:''}<div class="small" style="color:var(--navy2);margin-top:4px">Edit ›</div></div></div>`}
+  <div class="small muted">${[c.price?'$'+c.price:'',c.acquired?'Acquired '+c.acquired:'',c.source].filter(Boolean).map(esc).join(' · ')}</div>${c.printing?`<div class="small">${esc(c.printing)}</div>`:''}${c.notes?`<div class="small muted">${esc(c.notes)}</div>`:''}<div class="small" style="color:var(--navy2);margin-top:4px">Edit ›</div></div><button type="button" class="copydel" data-delcopy="${c.id}" aria-label="Delete this copy">Delete</button></div>`}
  h+=`<a class="btn block gold" href="#/c/${id}/new">+ Add a copy</a>`;
  if(b.sk==='custom')h+=`<button class="btn block ghost" id="delCustom">Delete this custom title</button>`;
  $('#app').innerHTML=h;window.scrollTo(0,0);
@@ -308,6 +318,7 @@ function viewBook(id){const b=BOOK[id];if(!b)return viewHome();setHeader('#'+b.n
  $('#app').querySelectorAll('[data-clear]').forEach(el=>el.onclick=async()=>{delete T(id)[el.dataset.clear];tidyTitle(id);pruneRank();await save();keepY()});
  bindCoverCard(b,keepY);
  $('#app').querySelectorAll('[data-copy]').forEach(el=>el.onclick=()=>location.hash=`#/c/${id}/${el.dataset.copy}`);
+ $('#app').querySelectorAll('[data-delcopy]').forEach(el=>el.onclick=e=>{e.stopPropagation();if(tapBusy('del:'+el.dataset.delcopy))return;const c=S.copies.find(x=>x.id===el.dataset.delcopy);if(c)deleteCopy(c,()=>viewBook(id))});
  const dc=$('#delCustom');if(dc)dc.onclick=async()=>{if(!confirm('Delete this custom title and its copies?'))return;S.custom=S.custom.filter(x=>'custom-'+x.n!==id);S.copies=S.copies.filter(c=>c.bookId!==id);delete S.wish[id];await save();indexBooks();location.hash='#/'}}
 
 function rateRowHTML(id,k,label,color){const v=getR(id,k);
@@ -364,7 +375,7 @@ function viewCopy(id,cid){const b=BOOK[id];if(!b)return viewHome();const isNew=c
  $('#format').addEventListener('change',()=>{if(YS_FORMAT&&/yellow spine|YSPC|flashlight/i.test($('#format').value)&&!st.spine)$('#spSeg [data-v="Yellow"]').click()});
  $('#photo').onchange=async e=>{const f=e.target.files[0];if(!f)return;try{st.photo=await resizeImage(f,900,.8);$('#photoBox').innerHTML=`<img class="photoPrev" src="${st.photo}">`}catch(err){toast('Could not read that photo')}};
  const rp=$('#rmPhoto');if(rp)rp.onclick=()=>{st.photo='';$('#photoBox').innerHTML=''};
- $('#saveBtn').onclick=async()=>{const v=k=>$('#'+k).value.trim();const data={text:hasTexts(b)?st.text:'N/A',format:v('format'),dj:st.dj,first:st.first,spine:st.spine,numCover:st.numCover,cond:v('cond'),djCond:st.dj?v('djCond'):'',listTo:v('listTo'),endpapers:$('#endpapers').value,illus:$('#illus').value,djStyle:st.dj?$('#djStyle').value:'',printing:v('printing'),pcode:v('pcode'),price:v('price'),acquired:v('acquired'),source:v('source'),notes:v('notes'),photo:st.photo,updated:Date.now()};
+ $('#saveBtn').onclick=async()=>{if(tapBusy('save',1200))return;const v=k=>$('#'+k).value.trim();const data={text:hasTexts(b)?st.text:'N/A',format:v('format'),dj:st.dj,first:st.first,spine:st.spine,numCover:st.numCover,cond:v('cond'),djCond:st.dj?v('djCond'):'',listTo:v('listTo'),endpapers:$('#endpapers').value,illus:$('#illus').value,djStyle:st.dj?$('#djStyle').value:'',printing:v('printing'),pcode:v('pcode'),price:v('price'),acquired:v('acquired'),source:v('source'),notes:v('notes'),photo:st.photo,updated:Date.now()};
   try{if(isNew){const r=await addCopy(id,data);toast('Copy added'+(r.unwished?' · removed from wishlist':''))}else{Object.assign(c,data);await save();toast('Saved')}history.back()}catch(err){toast('Save failed: storage may be full ('+err.message+')')}};
  const db=$('#delBtn');if(db)db.onclick=async()=>{if(!confirm('Delete this copy?'))return;const keep=c;S.copies=S.copies.filter(x=>x.id!==c.id);await save();history.back();setTimeout(()=>toast('Copy deleted','Undo',async()=>{S.copies.push(keep);await save();route()}),50)}}
 
