@@ -1,4 +1,4 @@
-// v1.7 / ND v1.1 checks: yellow spine, number on cover, artist, ghostwriters (HB), pin tab, old-backup restore.
+// v1.7 / ND v1.1 checks, updated for the v1.9 spine picker: spine chip, number on cover, artist, ghostwriters (HB), pin tab, old-backup restore, yspine migration. Usage: node test9.js URL hb|nd [old-backup.json]
 const { chromium } = require('playwright-core'); const fs=require('fs');
 const [U,APP,OLD]=process.argv.slice(2);const ok=(c,m)=>{if(!c){console.log('FAIL:',m);process.exitCode=1}else console.log('PASS:',m)};
 (async()=>{const b=await chromium.launch({executablePath:'/usr/bin/google-chrome',args:['--no-sandbox']});
@@ -11,7 +11,7 @@ if(OLD){const old=JSON.parse(fs.readFileSync(OLD,'utf8'));await p.goto(U+'#/more
  const id=old.copies[0].bookId;await p.goto(U+'#/b/'+id);await p.waitForSelector('.copy');ok(true,`${t} old copy renders`);
  await p.click('.copy');await p.waitForSelector('#spSeg');ok(!(await p.$('#spSeg .on'))&&await p.$eval('#ncSeg [data-v=""]',e=>e.classList.contains('on')),`${t} old copy defaults: no YS, number unknown`);}
 await p.goto(U+'#/c/gd-3/new');await p.waitForSelector('#spSeg');await p.click('#textSeg [data-t="Revised"]');await p.click('#spSeg [data-v="Yellow"]');await p.click('#ncSeg [data-v="Yes"]');
-const fmt=await p.$eval('#format',e=>e.value);ok(APP==='nd'?/YSPC/.test(fmt):fmt==='',`${t} yellow spine shortcut format="${fmt}"`);
+ok(await p.$eval('#spSeg [data-v="Yellow"]',e=>e.classList.contains('on')),`${t} Yellow spine chip selects (v1.9 spine picker; old YSPC format shortcut retired)`);
 await p.selectOption('#illus',{index:2});const sb=await p.$('#saveBtn');await sb.scrollIntoViewIfNeeded();await sb.click();await p.waitForTimeout(400);
 const c=await p.evaluate(()=>S.copies.filter(c=>c.bookId==='gd-3').pop());ok(c&&c.spine==='Yellow'&&c.numCover==='Yes'&&c.illus&&!('yspine' in c),`${t} saved yspine/numCover/illus`);
 await p.goto(U+'#/s/gd');await p.waitForSelector('.row[data-id="gd-3"]');ok(await p.$eval('.row[data-id="gd-3"]',e=>!!e.querySelector('.b.sp[data-spine="Yellow"]')),`${t} spine badge`);
