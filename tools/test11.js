@@ -1,4 +1,4 @@
-// printing code field: optional, form, summary, search, CSV, JSON backup, old backup restores
+// printing code field removed (v1.15 HB / v1.7 ND): no input, summary, CSV column; old data with pcode imports and is preserved quietly
 const { chromium } = require('playwright-core');
 const U=process.argv[2];const ok=(c,m)=>{if(!c){console.log('FAIL:',m);process.exitCode=1}else console.log('PASS:',m)};
 (async()=>{const b=await chromium.launch({executablePath:'/usr/bin/google-chrome',args:['--no-sandbox']});
@@ -6,17 +6,20 @@ for(const vp of [{width:390,height:844},{width:375,height:667},{width:430,height
 const p=await (await b.newContext({viewport:vp,isMobile:true,hasTouch:true})).newPage();const errs=[];p.on('pageerror',e=>errs.push(e.message));
 await p.goto(U);await p.waitForSelector('.scard');
 await p.evaluate(async()=>{S.copies=[];S.titles={};await save()});
-await p.goto(U+'#/c/gd-1/new');await p.waitForSelector('#pcode');
-ok(await p.$eval('#pcode',e=>e.value===''&&/^e\.g\./.test(e.placeholder)),`${t} field present, optional, placeholder`);
-await p.fill('#pcode','1927A-1');await p.click('#saveBtn');await p.waitForTimeout(400);
-ok(await p.evaluate(()=>S.copies[0]&&S.copies[0].pcode==='1927A-1'),`${t} saved`);
-await p.goto(U+'#/b/gd-1');await p.waitForTimeout(400);ok((await p.textContent('#app')).includes('printing code 1927A-1'),`${t} on copy summary`);
-await p.goto(U+'#/search');await p.waitForSelector('#q');await p.fill('#q','1927a-1');await p.waitForTimeout(500);ok(!!(await p.$('.row[data-id="gd-1"]')),`${t} searchable`);
-const out=await p.evaluate(()=>{const o=[];window.download=(n,x)=>o.push(x);exportCopiesCSV();exportJSON(false);return o});
-ok(/Printing code/.test(out[0])&&out[0].includes('1927A-1'),`${t} CSV`);ok(JSON.parse(out[1]).copies[0].pcode==='1927A-1',`${t} JSON backup`);
-const old=JSON.parse(out[1]);for(const c of old.copies)delete c.pcode;
+const bid=await p.evaluate(()=>Object.keys(BOOK)[0]);
+await p.goto(U+'#/c/'+bid+'/new');await p.waitForSelector('#saveBtn');
+ok(!(await p.$('#pcode'))&&!/Printing code/.test(await p.textContent('#app')),`${t} field gone from form`);
+await p.click('#saveBtn');await p.waitForTimeout(400);
+ok(await p.evaluate(()=>S.copies.length===1),`${t} copy saves`);
+const out=await p.evaluate(()=>{const o=[];window.download=(n,x)=>o.push(x);exportJSON(false);return o});
+const old=JSON.parse(out[0]);old.copies[0].pcode='1927A-1';
 await p.evaluate(async j=>{await importJSON(new File([j],'b.json'),'replace')},JSON.stringify(old));await p.waitForTimeout(300);
-ok(await p.evaluate(()=>S.copies.length===1&&!S.copies[0].pcode),`${t} old backup without field restores`);
-await p.goto(U+'#/c/gd-1/'+await p.evaluate(()=>S.copies[0].id));await p.waitForSelector('#pcode');ok(await p.$eval('#pcode',e=>e.value===''),`${t} old copy edits fine`);
+ok(await p.evaluate(()=>S.copies.length===1&&S.copies[0].pcode==='1927A-1'),`${t} old backup with field imports, value kept`);
+await p.goto(U+'#/b/'+bid);await p.waitForTimeout(400);ok(!(await p.textContent('#app')).includes('1927A-1'),`${t} not shown on summary`);
+await p.goto(U+'#/c/'+bid+'/'+await p.evaluate(()=>S.copies[0].id));await p.waitForSelector('#saveBtn');await p.click('#saveBtn');await p.waitForTimeout(400);
+ok(await p.evaluate(()=>S.copies[0].pcode==='1927A-1'),`${t} editing keeps stored value`);
+const o2=await p.evaluate(()=>{const o=[];window.download=(n,x)=>o.push(x);exportCopiesCSV();exportJSON(false);return o});
+ok(!/Printing code/.test(o2[0])&&!o2[0].includes('1927A-1'),`${t} no CSV column`);ok(JSON.parse(o2[1]).copies[0].pcode==='1927A-1',`${t} JSON backup keeps value`);
+await p.goto(U+'#/search');await p.waitForSelector('#q');await p.fill('#q','1927a-1');await p.waitForTimeout(500);ok(!(await p.$('.row[data-id="'+bid+'"]')),`${t} not searchable`);
 ok(!errs.length,`${t} no errors ${errs}`)}
 await b.close()})();
