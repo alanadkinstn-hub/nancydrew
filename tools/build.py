@@ -4,7 +4,7 @@ data = json.loads((root/'tools/data.json').read_text())
 src = (root/'tools/index.src.html').read_text()
 djs = json.dumps(data, ensure_ascii=False, separators=(',',':')).replace('</', '<\\/')
 covers = json.loads((root/'tools/covers.json').read_text()) if (root/'tools/covers.json').exists() else {}
-ver = '1.8-' + hashlib.sha1((src+djs+json.dumps(covers)).encode()).hexdigest()[:8]
+ver = '1.9-' + hashlib.sha1((src+djs+json.dumps(covers)).encode()).hexdigest()[:8]
 html = src.replace('/*COVERS*/', json.dumps(covers, separators=(',',':'))).replace('/*DATA*/', djs).replace('/*VERSION*/', ver)
 (root/'index.html').write_text(html)
 (root/'manifest.webmanifest').write_text(json.dumps({
